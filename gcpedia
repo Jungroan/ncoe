@@ -1,1299 +1,1452 @@
 <html lang="en">
 
-
-
-
-
-
-http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-https://fonts.googleapis.com/css?family=Caronta:400,700|Hind:400,600" rel="stylesheet">
-https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/wiki/Location_et_Louage_(SI)">Français</a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/6/66/Planningleasing.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/b/b9/Negotiationleasingyellow.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/5/57/Implementationleasing.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/0/01/Crowndebtgreen.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/f/f1/Changeofogreen.png" />
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/4/4c/Overholdsgreen.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/a/a9/Internalcostcentresgreen.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/a/a4/Planningletting.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/a/a9/Negotiationlettingyellow.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/5/56/Implementationletting.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/c/cd/Extensions.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/7/76/Parkingyellow.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/6/61/Earlyterminationgreen.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/e/e7/Salesbasedrentgreen.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/4/4a/Crossfiscal.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/3/30/Rentadj.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/2/26/Proporitonatesharegreen.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/0/04/Changescrossfiscal.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/8/83/Changeinclause.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/7/78/Leaseaa.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/6/6a/Statutorysetoff.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/9/9f/Inducementsgreen.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/8/8d/PLARgreen.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/6/67/KPI.png" />
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/9/91/Reporting%26QualityAssurance.png" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=120385538&objAction=browse" target=”_blank”>Leasing Services Procedures Manual</a></li>
-
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/7/71/RES_-_National_Leasing_-_1a_EN_SP_3_-_Workshop_-_Lease-In_Nov_28-v3_-_RES_Colour_Scheme.svg" width:"100%" /></li>
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=120385538&objAction=browse" target=”_blank”>Leasing Services Procedures Manual</a></li>
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/5/58/1a_EN_SP_3_-_Workshop_-_Lease-In_Nov_28-v3_-_RES_Colour_Scheme_-_negotiation.svg" width:"100%" /></li>
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=120385538&objAction=browse" target=”_blank”>Leasing Services Procedures Manual</a></li>
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/4/4d/1a_EN_SP_3_-_Workshop_-_Lease-In_Nov_28-v3_-_RES_Colour_Scheme_-_Implementation.svg" width:"100%" /></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/2/2a/RES_-_National_Leasing_-_2a_EN_SP_3_-_Workshop_-_Parking.svg" width="125%"/> 
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/cs.exe?func=ll&objaction=overview&objid=87988140" target=”_blank”>Narrative Guide</a>
-
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/1/14/RES-_National_Leasing_-_Change_of_Ownership_-_SIGMA_RP_Lease_Maintenance_Processes_-_Change_of_Ownership.svg" width="100%"/> 
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=93400660" target=”_blank”>RPB Leasing - Guidelines for RE/FX Contracts in Overhold</a></li>
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=87561630">Change an Org Assignment in an Active Contract</a>
-
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/cs.exe?func=ll&objaction=overview&objid=126730961" target=”_blank”>Letting / Lease-Out Commercial sub-process maps</a></li>
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/link/14554823" target=”_blank”>Commercial and Retail Letting Manual</a></li>
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/cs.exe?func=ll&objaction=overview&objid=126730961" target=”_blank”>Letting / Lease-Out Commercial sub-process maps</a></li>
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/link/14554823" target=”_blank”>Commercial and Retail Letting Manual</a></li>
-
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/cs.exe?func=ll&objaction=overview&objid=126730961" target=”_blank”>Letting / Lease-Out Commercial sub-process maps</a></li>
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/link/14554823" target=”_blank”>Commercial and Retail Letting Manual</a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/e/e1/RES-_National_Leasing_-_Assignment_of_Crown_Debt.svg" width=" width:"100%" /></li>
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=32607866">Give Notice on an RE/FX Contract</a>
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=35492378">Give Notice on a Rental Object in an RE/FX Contract</a>
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objid=87575784&objaction=open&nexturl=%2Ftpsgc%2Dpwgsc%2Fllisapi%2Edll%3Ffunc%3Dll%26objId%3D87543294%26objAction%3Dbrowse%26sort%3Dname%26viewType%3D1" target=”_blank”>Creating a Planned and Certified Sales Reporting Interval</a></li>
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objid=87583206&objaction=open&nexturl=%2Ftpsgc%2Dpwgsc%2Fllisapi%2Edll%3Ffunc%3Dll%26objId%3D87543294%26objAction%3Dbrowse%26sort%3Dname%26viewType%3D1" target="_blank">Enter Missing Sales Reports</a></li>
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=99533702" target="_blank">Sales Based Rent Setup Different Scenarios</a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=32769119"> Proportionate Share Measurement</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=88676010" target=”_blank”>Create an Inducement Condition in an RE/FX Contract</a></li>
-
-
-
-
-
-
-
-
-
-
-https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/94032029" target=”_blank”>PLAR Collection</a></li>
-
-
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/images/8/87/SIGMA_REFX_PLAR_v3.svg" width="125%"/>   -->
-http://www.gcpedia.gc.ca/gcwiki/images/e/ec/SIGMA_REFX_PLAR_v4.svg" width="100%"/>   -->
-http://www.gcpedia.gc.ca/gcwiki/images/8/86/SIGMA_REFX_PLAR_v5.svg" width="100%"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-mailto:TPSGC.dgbilocation-rpbleasing.PWGSC@tpsgc-pwgsc.gc.ca">Contact Us</a></button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-http://www.gcpedia.gc.ca/gcwiki/index.php?title=Leasing_and_Letting_(RES)&action=edit"><span>source</a><span> | </span><a href="http://stats.gctools-outilsgc.ca/gcpedia/?URL-search=/wiki/Leasing_and_Letting_(RES)#"><span>stats</span></a>
-
-
-
-
-https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-
+<head>
+  <title>National Leasing Centre of Expertise</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href=".css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Caronta:400,700|Hind:400,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+<style>
+.mw-body{
+  border:none;
+}
+
+.wmd-view-topscroll, .wmd-view {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 100%;
+    border-top: none 1px black;
+    border-bottom: none 1px black;
+}
+
+.wmd-view-topscroll{
+  height: 20px; 
+}
+
+.wmd-view {
+  height: 850px; 
+}
+
+.scroll-div1 { 
+    width: 2300px; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.scroll-div2 { 
+    width: 1800px; 
+    height:20px;
+}
+
+top{
+  display: none;
+}
+
+#firstHeading {
+   display:none;
+}
+
+#mw-page-base {
+  display: none;
+}
+
+header {
+   display:none;
+}
+
+#mw-panel {
+  display: none;
+}
+
+#column-content {
+  margin: 0 0 .6em 0;
+}
+
+#content {
+  margin: 2.8em 0 0 0;
+}
+
+#p-logo, .generated-sidebar, #p-lang, #p-tb, #p-search {
+  display: none;
+}
+
+#p-cactions {
+  left: .1em; 
+}
+
+#footer {
+  display: none;
+}
+
+#mw_content {
+  margin-left: 0.2em;
+}
+
+#mw-head {
+  display: none;
+}
+
+#mw-head-base {
+  display: none;
+}
+
+#logo {
+  background-color:#0F2E4C;
+  color: white;
+  font-size: 20px;
+  float: left;
+  position: absolute;
+  top: .1px;
+  left: 15px;
+  border: 2px solid #0F2E4C;  
+  text-shadow:1px 3px 6px rgba(0,0,0,.3);
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20px;
+  z-index:9999;
+}
+
+#fr{
+  color: grey;
+  float: right;
+  position: absolute;
+  right: 3px;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20px;  
+  z-index:9999;
+}
+
+.glyphicon{
+  font-size:15px;
+  padding:2px;
+  z-index:9999;
+}
+
+.navbar {
+  background-color: white;
+  font-size: 18px;
+  border:2px solid #fff;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  z-index:9999;
+}
+
+#title {
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-height: 450px;
+  min-height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  padding: 15px;
+}
+
+.container-fluid .maintitle{
+  color: black;
+  font-size: 56px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px;
+  letter-spacing:6px;
+}
+
+.container-fluid .bar{
+  background-color: black;
+  margin:22px auto;
+  height:2px;
+  width: 250px;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid .sectitle {
+  font-size: 40px;
+  text-align: center;
+  padding: 0%;
+  color: black;
+  letter-spacing: 3px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid h5{
+  font-size:30px;
+  color:black;
+  text-align: center;
+  padding-top:40px;
+  letter-spacing:2px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-fluid .bar2{
+  background-color:black;
+  margin:22px auto;
+  height:2px;
+  width: 140px;
+  display:block;
+  text-shadow:1px 1px 1px rgba(0,0,0,.3);
+}
+
+.container-fluid p{
+  text-align:center;
+  color:;
+  font-size: 16px;
+}
+
+#green{
+  color:#95D155!important;
+}
+
+#yellow{
+  color:#FFDA69 !important;
+}
+
+#grey{
+  color:#D9D9D9 !important;
+}
+
+#Filter {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#Filter a:link, #Filter a:visited {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #0F2E4C;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 3px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#Filter a:hover, #Filter a:active, .activeFilter {
+  background-color: #a4acb4!important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  -webkit-font-smoothing:antialiased;
+  text-rendering: optimizedLegibility;
+}
+
+.wrap {
+  overflow: hidden;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.wrap button{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none; 
+  height:100%;
+  width:100%;
+}
+
+.box {
+  float: left;
+  position: relative;
+  width: 20%;
+  padding-bottom: 20%;
+}
+
+.boxInner {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+  overflow: hidden;
+  background-color: #0F2E4C;
+}
+
+.boxInner img {
+  width: 100%;
+}
+
+.boxInner .titleBox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  width: 100%;
+  height:100%;
+  opacity: 0;
+}
+
+.boxInner:hover .titleBox {
+  opacity: .5;
+}
+
+#contact{
+  background-color: #0F2E4C;
+  text-align:centre;
+  margin:-15px;
+  color:#fff;
+  padding:30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#contact a{
+  background-color:#0F2E4C;
+  border-radius:0px;
+  border:1px solid #fff;
+  color:white;
+  padding:9px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#contact a:hover{
+  background-color:white;
+  color:#0F2E4C !important;
+  text-decoration:none;
+}
+
+#contact a:visited{
+  color:white;
+  text-decoration:none;
+}
+
+.maps{
+  padding-left:10px;
+  padding-bottom:60px;
+}
+
+.maps h5{
+  text-align:left;
+  letter-spacing:2px;
+  font-size: 25px;
+  color:black;
+  margin-left:10px;
+}
+
+.maps p{
+  text-align:left;
+  letter-spacing:1px;
+  font-size: 15px;
+  color:grey;
+  margin-left:10px;
+}
+
+.planningMap a, .negotiationMap a, .implementationMap a, .planningMap2 a, .negotiationMap2 a, .implementationMap2 a, .parkingMap a, .changeofoMap a, .overholdsMap a, .internalCostsMap a, .extensionsMap a, .crownDebtMap a, .earlyTerminationMap a, .salesBasedRentMap a, .crossFiscalMap a, .rentAdjMap a, .proportionateShareMap a, .changesCrossFiscalMap a, .changeInClauseMap a, .leaseAAMap a, .statutorySetoffMap a, .inducementsMap a, .KPIMap a, .RQAMap a, .PLARMap a{
+  text-align:left;
+  letter-spacing:1px;
+  font-size: 15px;
+  color:#0F2E4C;
+  margin-left:10px;
+  text-decoration:underline;
+}
+
+.planningMap a:hover, .negotiationMap a:hover, .implementationMap a:hover, .planningMap2 a:hover, .negotiationMap2 a:hover, .implementationMap2 a:hover, .parkingMap a:hover, .changeofoMap a:hover, .overholdsMap a:hover, .internalCostsMap a:hover, .extensionsMap a:hover, .crownDebtMap a:hover, .earlyTerminationMap a:hover, .salesBasedRentMap a:hover, .crossFiscalMap a:hover, .rentAdjMap a:hover, .proportionateShareMap a:hover, .changesCrossFiscalMap a:hover, .changeInClauseMap a:hover, .leaseAAMap a:hover, .statutorySetoffMap a:hover, .inducementsMap a:hover, .KPIMap a:hover, .RQAMap a:hover, .PLARMap a:hover{
+  color:black;
+}
+
+span {
+  color: #ffffff;
+}
+
+footer {
+  background-color: black;
+  margin:-15px;
+}
+
+footer a{
+  color:white;
+  font-size
+}
+
+footer a:hover {
+  color: white;
+}
+
+
+</style>
+<body>
+
+ <!--NAV BAR-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#title" id="logo"><span class="glyphicon glyphicon-stats"></span> Leasing, Policies and Systems</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="http://www.gcpedia.gc.ca/wiki/Location_et_Louage_(SI)">Français</a></li>
+      </ul>
+      </div>
+  </nav>
+  </ul>
+  </li>
+  </ul>
+  </div>
+  </div>
+  </nav>
+  </div>
+
+ <!--HEADER-->
+    <div class="container-fluid text-center" id="title">
+    <p class="maintitle"><strong>PSPC - Real Estate Services (RES)</strong></p>
+    <span class="bar"></span>
+ <!--    <p class="sectitle">PSPC - Real Estate Services (RES)</h2> -->
+    </div>
+	
+<!-- POLICY COLLECTION-->
+	<div id="PolicyCollection" class="container-fluid">
+		<h5>Policy Collection</h5>
+		<li>
+			<a href="title" target="_blank">
+			<a href="title" target="_blank">
+			<a href="title" target="_blank">
+		</li>
+		<br/>
+		<span class="bar"></span>
+	</div>	
+  
+<!--PROCESS MAPS-->
+   <div id="ProcessMaps" class="container-fluid">
+    <h5>Leasing and Letting Business Process Maps</h5>
+    <p><span class="glyphicon glyphicon-stop" id="green"></span> Finalized | <span class="glyphicon glyphicon-stop" id="yellow"></span> Coming Soon | <span class="glyphicon glyphicon-stop" id="grey"></span> Under Development</p>
+        
+<!--CATEGORIES-->
+     <div id="Filter">
+      <a id="all" class="activeFilter" href="#">All</a>
+      <!-- Image Gallery Text Filters -->
+      <a id="lease-in" href="#">Leasing</a>
+      <a id="lease-out" href="#">Letting</a>
+      <a id="parking" href="#">Parking</a>
+      <a id="leasemaintenance" href="#">Lease Maintenance</a>
+      <a id="PLAR" href="#">PLAR</a>
+      <a id="KPIandReporting" href="#">KPI & Reporting</a>
+    </div>
+     
+    <div class="wrap">
+
+      <!-- IMAGE GALLERY -->
+
+      <!-- PLANNING 1 - ICON -->
+      <div class="box <!-- Category --> lease-in <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/6/66/Planningleasing.png" />
+          <div class="titleBox"><button id="btn1">Planning (Leasing)</button></div>
+        </div>
+      </div>
+
+      <!-- NEGOTIATION 1 - ICON -->
+      <div class="box <!-- Category --> lease-in <!-- Category --> item">
+        <div class="boxInner">
+            <img src="http://www.gcpedia.gc.ca/gcwiki/images/b/b9/Negotiationleasingyellow.png" />
+            <div class="titleBox"><button id="btn2">Negotiation (Leasing)</button></div>
+        </div>
+      </div>
+
+      <!-- IMPLEMENTATION 1 - ICON -->
+      <div class="box <!-- Category --> lease-in <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/5/57/Implementationleasing.png" />
+            <div class="titleBox"><button id="btn3">Implementation (Leasing)</button></div>
+        </div>
+      </div>
+
+       <!-- ASSIGNMENT OF CROWN DEBT - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/0/01/Crowndebtgreen.png" />
+            <div class="titleBox"><button id="btn12">Assignment of Crown Debt<button></div>
+        </div>
+      </div>
+
+      <!-- CHANGE OF OWNERSHIP - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/f/f1/Changeofogreen.png" />
+          <div class="titleBox"><button id="btn5">Change of Ownership</button></div>
+        </div>
+      </div>
+   
+      <!-- OVERHOLDS AND OVERLAPPING CONTRACTS - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/4/4c/Overholdsgreen.png" />
+            <div class="titleBox"><button id="btn6">Overholds and Overlapping Contracts</button></div>
+        </div>
+      </div>
+
+      <!-- CHANGE IN INTERNAL IN INTERNAL COST CENTRES - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/a/a9/Internalcostcentresgreen.png" />
+            <div class="titleBox"><button id="btn7">Change in Internal Cost Centres</button></div>
+        </div>
+      </div>
+
+      <!-- PLANNING 2 - ICON -->
+      <div class="box <!-- Category --> lease-out <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/a/a4/Planningletting.png" />
+          <div class="titleBox"><button id="btn8">Planning (Letting)</button></div>
+        </div>
+      </div>
+
+      <!-- NEGOTIATION 2 - ICON -->
+      <div class="box <!-- Category --> lease-out <!-- Category --> item">
+        <div class="boxInner">
+            <img src="http://www.gcpedia.gc.ca/gcwiki/images/a/a9/Negotiationlettingyellow.png" />
+            <div class="titleBox"><button id="btn9">Negotiation (Letting)</button></div>
+        </div>
+      </div>
+
+      <!-- IMPLEMENTATION 2 - ICON -->
+      <div class="box <!-- Category --> lease-out <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/5/56/Implementationletting.png" />
+            <div class="titleBox"><button id="btn10">Implementation (Letting)</button></div>
+        </div>
+      </div>
+
+      <!-- EXTENSIONS - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/c/cd/Extensions.png" />
+            <div class="titleBox"><button id="btn11">Extensions<button></div>
+        </div>
+      </div>
+
+     <!-- PARKING - ICON -->
+      <div class="box <!-- Category --> parking <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/7/76/Parkingyellow.png" />
+            <div class="titleBox"><button id="btn4">Parking</button></div>
+        </div>
+      </div>
+
+      <!-- EARLY TERMINATION OF LEASE - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/6/61/Earlyterminationgreen.png" />
+            <div class="titleBox"><button id="btn13">Early Termination of Lease<button></div>
+        </div>
+      </div>
+
+      <!-- SALES BASED RENT - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/e/e7/Salesbasedrentgreen.png" />
+            <div class="titleBox"><button id="btn14">Sales-Based Rent<button></div>
+        </div>
+      </div>
+
+      <!-- CROSS FISCAL YEAR CONDITION CHANGES - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/4/4a/Crossfiscal.png" />
+            <div class="titleBox"><button id="btn15">Cross Fiscal Year Condition Changes<button></div>
+        </div>
+      </div>
+
+      <!-- RENT/FI ADJUSTMENTS - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/3/30/Rentadj.png" />
+            <div class="titleBox"><button id="btn16">Rent/FI Adjustments<button></div>
+        </div>
+      </div>
+
+      <!-- PROPORTIONATE SHARE - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/2/26/Proporitonatesharegreen.png" />
+            <div class="titleBox"><button id="btn17">Proportionate Share<button></div>
+        </div>
+      </div>
+
+      <!-- CHANGES RESULTING FROM FISCAL YEAR PREPARATIONS - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/0/04/Changescrossfiscal.png" />
+            <div class="titleBox"><button id="btn18">Changes Resulting from Fiscal Year Preparations<button></div>
+        </div>
+      </div>
+
+      <!-- CHANGE IN CLAUSE - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/8/83/Changeinclause.png" />
+            <div class="titleBox"><button id="btn19">Change in Clause<button></div>
+        </div>
+      </div>
+
+      <!-- LEASE AMENDING AGREEMENTS - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/7/78/Leaseaa.png" />
+            <div class="titleBox"><button id="btn20">Lease Amending Agreements (Change in Space)<button></div>
+        </div>
+      </div>
+
+      <!-- STATUTORY SETOFF - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/6/6a/Statutorysetoff.png" />
+            <div class="titleBox"><button id="btn21">Statutory Setoff<button></div>
+        </div>
+      </div>
+
+      <!-- INDUCEMENTS - ICON -->
+      <div class="box <!-- Category --> leasemaintenance <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/9/9f/Inducementsgreen.png" />
+            <div class="titleBox"><button id="btn22">Inducements<button></div>
+        </div>
+      </div>
+
+      <!-- PLAR - ICON -->
+      <div class="box <!-- Category --> PLAR <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/8/8d/PLARgreen.png" />
+            <div class="titleBox"><button id="btn23">PLAR<button></div>
+        </div>
+      </div>
+
+      <!-- KPI - ICON -->
+      <div class="box <!-- Category --> KPIandReporting <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/6/67/KPI.png" />
+            <div class="titleBox"><button id="btn24">Key Performance Indicators<button></div>
+        </div>
+      </div>
+
+      <!-- Reporting & Quality Assurance- ICON -->
+      <div class="box <!-- Category --> KPIandReporting <!-- Category --> item">
+        <div class="boxInner">
+          <img src="http://www.gcpedia.gc.ca/gcwiki/images/9/91/Reporting%26QualityAssurance.png" />
+            <div class="titleBox"><button id="btn25">Reporting & Quality Assurance <button></div>
+        </div>
+      </div>
+
+<!--^INSERT NEW IMAGE HERE^-->
+
+ </div>
+ </div>
+
+<!--MAPS SECTION-->
+<div class="maps">
+
+<!-- PLANNING 1 - MAP -->
+   <div class="planningMap">
+      <h5>Planning (Leasing)</h5>
+      <p>This process map is coming soon. In the meantime, here are some relevant tools:</p>
+      <p>
+<ul style="list-style-type:square;  margin-left: 40px;" >
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=120385538&objAction=browse" target=”_blank”>Leasing Services Procedures Manual</a></li>
+</ul><br>
+</p>
+<br><br><br>
+<p>This process map is still under development.<p>
+  	<div style="width: 100%; height: 1200px; overflow: auto;">
+ 	<div style="width: 100%; height: 120px">
+ 	<ul style="padding: 0;">
+ 	<li style="display: inline;"><embed    
+      src="http://www.gcpedia.gc.ca/gcwiki/images/7/71/RES_-_National_Leasing_-_1a_EN_SP_3_-_Workshop_-_Lease-In_Nov_28-v3_-_RES_Colour_Scheme.svg" width:"100%" /></li>
+ 	</ul></div>
+    	</div>
+   </div>
+
+<!-- NEGOTIATION 1 - MAP -->
+    <div class="negotiationMap">
+      <h5>Negotiation (Leasing)</h5>
+      <p>This process map is still under development. In the meantime, here are some relevant tools:</p>
+      <p>
+<ul style="list-style-type:square;  margin-left: 40px;" >
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=120385538&objAction=browse" target=”_blank”>Leasing Services Procedures Manual</a></li>
+</ul><br>
+</p>
+<br><br><br>
+       	<div style="width: 100%; height: 1200px; overflow: auto;">
+ 	<div style="width: 100%; height: 120px">
+ 	<ul style="padding: 0;">
+ 	<li style="display: inline;"><embed    
+      src="http://www.gcpedia.gc.ca/gcwiki/images/5/58/1a_EN_SP_3_-_Workshop_-_Lease-In_Nov_28-v3_-_RES_Colour_Scheme_-_negotiation.svg" width:"100%" /></li>
+ 	</ul></div>
+       </div>
+    </div>
+
+<!-- IMPLEMENTATION 1 - MAP -->
+    <div class="implementationMap">
+      <h5>Implementation (Leasing)</h5>
+      <p>This process map is coming soon. In the meantime, here are some relevant tools:</p>
+     <p>
+<ul style="list-style-type:square;  margin-left: 40px;" >
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=120385538&objAction=browse" target=”_blank”>Leasing Services Procedures Manual</a></li>
+</ul><br>
+</p>
+<br><br><br>
+       	<div style="width: 100%; height: 1200px; overflow: auto;">
+ 	<div style="width: 100%; height: 120px">
+ 	<ul style="padding: 0;">
+ 	<li style="display: inline;"><embed    
+      src="http://www.gcpedia.gc.ca/gcwiki/images/4/4d/1a_EN_SP_3_-_Workshop_-_Lease-In_Nov_28-v3_-_RES_Colour_Scheme_-_Implementation.svg" width:"100%" /></li>
+ 	</ul></div>
+        </div>
+    </div>
+
+<!-- PARKING - MAP -->
+    <div class="parkingMap">
+            <h5>Parking</h5>
+     <br><br><br>
+        <div class="wmd-view-topscroll">
+          <div class="scroll-div1">
+        </div>
+      </div>
+        <div class="wmd-view">
+          <div class="scroll-div2">
+          <embed src="http://www.gcpedia.gc.ca/gcwiki/images/2/2a/RES_-_National_Leasing_-_2a_EN_SP_3_-_Workshop_-_Parking.svg" width="125%"/> 
+          </div>
+        </div>
+    </div>
+
+<!-- CHANGE OF OWNERSHIP - MAP -->
+    <div class="changeofoMap">
+      <h5>Change of Ownership</h5>
+<!-- guide needs to be updated to reflect latest visio - comment out until updated   
+      <p>Please see the accompanying narrative guide:</p>
+  <a href="https://gcdocs.gc.ca/tpsgc-pwgsc/cs.exe?func=ll&objaction=overview&objid=87988140" target=”_blank”>Narrative Guide</a>
+  -->
+
+     <br><br><br>
+        <div class="wmd-view-topscroll">
+          <div class="scroll-div1">
+        </div>
+      </div>
+        <div class="wmd-view">
+          <div class="scroll-div2">
+          <embed src="http://www.gcpedia.gc.ca/gcwiki/images/1/14/RES-_National_Leasing_-_Change_of_Ownership_-_SIGMA_RP_Lease_Maintenance_Processes_-_Change_of_Ownership.svg" width="100%"/> 
+          </div>
+        </div>
+      </div>
+  
+<!-- OVERHOLDS AND OVERLAPPING CONTRACTS - MAP -->
+  <div class="overholdsMap">
+      <h5>Overholds and Overlapping Contracts</h5>
+      <p>
+<ul style="list-style-type:square;  margin-left: 40px;" >
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=93400660" target=”_blank”>RPB Leasing - Guidelines for RE/FX Contracts in Overhold</a></li>
+</ul><br>
+<br><br>    
+</p>
+
+    </div>
+  
+<!-- CHANGE IN INTERNAL COST CENTRES - MAP -->
+  <div class="internalCostsMap">
+      <h5>Change in Internal Cost Centres</h5>
+      <p>Change Organizational Assignment Data in an Active RE/FX Lease Contract.</p>
+<a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=87561630">Change an Org Assignment in an Active Contract</a>
+<br><br>      
+ 
+    </div>
+  
+<!-- PLANNING 2 - MAP -->
+  <div class="planningMap2">
+      <h5>Planning (Letting)</h5>
+      <p>This process map is coming soon. In the meantime, here are some relevant tools:</p>
+<p>
+<ul style="list-style-type:square;  margin-left: 40px;" >
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/cs.exe?func=ll&objaction=overview&objid=126730961" target=”_blank”>Letting / Lease-Out Commercial sub-process maps</a></li>
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/link/14554823" target=”_blank”>Commercial and Retail Letting Manual</a></li>
+</p>
+    </div>
+
+<!-- NEGOTIATION 2 - MAP -->
+    <div class="negotiationMap2">
+      <h5>Negotiation (Letting)</h5>
+      <p>This process map is coming soon. In the meantime, here are some relevant tools:</p>
+      <p>
+<ul style="list-style-type:square;  margin-left: 40px;" >
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/cs.exe?func=ll&objaction=overview&objid=126730961" target=”_blank”>Letting / Lease-Out Commercial sub-process maps</a></li>
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/link/14554823" target=”_blank”>Commercial and Retail Letting Manual</a></li>
+</ul>
+<br><br>
+</p>
+    </div>
+
+<!-- IMPLEMENTATION 2 - MAP -->
+    <div class="implementationMap2">
+      <h5>Implementation (Letting)</h5>
+      <p>This process map is coming soon. In the meantime, here are some relevant tools:</p>
+<p>
+<ul style="list-style-type:square;  margin-left: 40px;" >
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/cs.exe?func=ll&objaction=overview&objid=126730961" target=”_blank”>Letting / Lease-Out Commercial sub-process maps</a></li>
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/link/14554823" target=”_blank”>Commercial and Retail Letting Manual</a></li>
+</ul>
+<br><br>
+</p>
+    </div>
+
+<!-- EXTENSIONS - MAP -->
+      <div class="extensionsMap">
+        <h5>Extensions</h5>
+        <p>This process map is still under development.<p>
+<br><br>         
+
+      </div>
+ 
+<!-- ASSIGNMENT OF CROWN DEBT - MAP --> 
+      <div class="crownDebtMap">
+        <h5>Assignment of Crown Debt</h5>
+        <p>The finalized version of this map is coming soon. In the meantime, here is the draft version:<p>
+         <div style="width: 100%; height: 1200px; overflow: auto;">
+          <div style="width: 100%; height: 120px">
+          <ul style="padding: 0;">
+          <li style="display: inline;"><embed src="http://www.gcpedia.gc.ca/gcwiki/images/e/e1/RES-_National_Leasing_-_Assignment_of_Crown_Debt.svg" width=" width:"100%" /></li>
+          </ul>
+         </div>
+        </div>
+       </div>
+  
+<!-- EARLY TERMINATION OF LEASE - MAP -->
+       <div class="earlyTerminationMap">
+         <h5>Early Termination of Lease</h5>
+         <p>Give Notice on a RE/FX Contract<p>
+<a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=32607866">Give Notice on an RE/FX Contract</a>
+<p>Give Notice on an Object in an RE/FX Contract<p>
+<a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=35492378">Give Notice on a Rental Object in an RE/FX Contract</a>
+<br><br>         
+
+    </div>
+  
+<!-- SALES-BASED RENT - MAP -->
+     <div class="salesBasedRentMap">
+       <h5>Sales-Based Rent</h5>
+<p>
+<ul style="list-style-type:square;  margin-left: 40px;" >
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objid=87575784&objaction=open&nexturl=%2Ftpsgc%2Dpwgsc%2Fllisapi%2Edll%3Ffunc%3Dll%26objId%3D87543294%26objAction%3Dbrowse%26sort%3Dname%26viewType%3D1" target=”_blank”>Creating a Planned and Certified Sales Reporting Interval</a></li>
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objid=87583206&objaction=open&nexturl=%2Ftpsgc%2Dpwgsc%2Fllisapi%2Edll%3Ffunc%3Dll%26objId%3D87543294%26objAction%3Dbrowse%26sort%3Dname%26viewType%3D1" target="_blank">Enter Missing Sales Reports</a></li>
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=99533702" target="_blank">Sales Based Rent Setup Different Scenarios</a></li>
+</ul>
+<p>
+<br><br>        
+
+    </div>
+  
+<!-- CROSS FISCAL YEAR CONDITION CHANGES - MAP -->
+     <div class="crossFiscalMap">
+       <h5>Cross Fiscal Year Condition Changes</h5>
+       <p>This process map is still under development.<p>
+<br><br>        
+
+    </div>
+
+<!-- RENT/FI ADJUSTMENTS - MAP -->
+     <div class="rentAdjMap">
+       <h5>Rent/FI Adjustments</h5>
+       <p>This process map is still under development.<p>
+<br><br>        
+
+    </div>
+
+<!-- PROPORTIONATE SHARE - MAP -->
+    <div class="proportionateShareMap">
+      <h5>Proportionate Share</h5>
+      <p>Add a Proportionate Share Differing Measurement<p>
+<a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=32769119"> Proportionate Share Measurement</a>
+<br><br>      
+
+    </div>
+
+<!-- CHANGES RESULTING FROM FISCAL YEAR PREPARATIONS - MAP -->
+    <div class="changesCrossFiscalMap">
+      <h5>Changes Resulting from Fiscal Year Preparations</h5>
+      <p>This process map is still under development.<p>
+<br><br>       
+
+    </div>
+
+<!-- CHANGE IN CLAUSE - MAP -->
+     <div class="changeInClauseMap">
+       <h5>Change in Clause</h5>
+       <p>This process map is still under development.<p>
+<br><br>        
+
+    </div>
+
+<!-- LEASE AMENDING AGREEMENTS - MAP -->
+    <div class="leaseAAMap">
+      <h5>Lease Amending Agreements</h5>
+      <p>This process map is still under development.<p>
+<br><br>       
+
+    </div>
+
+<!-- STATUTORY SETOFF - MAP -->
+     <div class="statutorySetoffMap">
+       <h5>Statutory Setoff</h5>
+       <p>This process map is still under development.<p>
+<br><br>       
+
+    </div>
+
+<!-- INDUCEMENTS - MAP -->
+     <div class="inducementsMap">
+       <h5>Inducements</h5>
+<p>
+<ul style="list-style-type:square;  margin-left: 40px;" >
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=88676010" target=”_blank”>Create an Inducement Condition in an RE/FX Contract</a></li>
+</ul>
+<p>
+<br><br>        
+
+    </div>
+
+<!-- PLAR - MAP -->
+    <div class="PLARMap">
+      <h5>PLAR</h5>
+<p>
+<ul style="list-style-type:square;  margin-left: 40px;" >
+<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/94032029" target=”_blank”>PLAR Collection</a></li>
+</ul>
+<p>
+      <br><br><br>
+        <div class="wmd-view-topscroll">
+          <div class="scroll-div1">
+        </div>
+      </div>
+        <div class="wmd-view">
+          <div class="scroll-div2">
+         <!-- <embed src="http://www.gcpedia.gc.ca/gcwiki/images/8/87/SIGMA_REFX_PLAR_v3.svg" width="125%"/>   -->
+         <!-- <embed src="http://www.gcpedia.gc.ca/gcwiki/images/e/ec/SIGMA_REFX_PLAR_v4.svg" width="100%"/>   -->
+        <embed src="http://www.gcpedia.gc.ca/gcwiki/images/8/86/SIGMA_REFX_PLAR_v5.svg" width="100%"/>
+
+          </div>
+        </div>
+      </div>
+
+<!-- KPI - MAP -->
+     <div class="KPIMap">
+       <h5>Key Performance Indicators</h5>
+       <p>This process map is still under development.<p>
+<br><br>       
+
+    </div>
+
+<!-- RQA - MAP -->
+     <div class="RQAMap">
+       <h5>Reporting & Quality Assurance</h5>
+       <p>This process map is still under development.<p>
+<br><br>       
+
+    </div>
+
+<!--^INSERT NEW MAP HERE^-->
+
+</div>
+
+<!-- Contact Us -->
+  <div class="container-fluid text-center" id="contact">
+    <h3>Questions?</h3>
+    <p>Please email us with your inquiries or questions.</p>
+    <div class="btn">
+      <a href="mailto:TPSGC.dgbilocation-rpbleasing.PWGSC@tpsgc-pwgsc.gc.ca">Contact Us</a></button>
+    <br><br>
+    </div>
+  </div>
+</body>
+
+<!--JAVASCRIPT-->
+<script>
+$(function(){ 
+      var $content = $(".ShowMore").hide();
+
+<!--BELOW IS FIRST BLOCK OF JAVASCRIPT CODE-->
+      $('#all').click(function(){
+        $('.item').show();
+       $('.planningMap').hide();
+        $('.negotiationMap').hide();
+        $('.implementationMap').hide();
+        $('.parkingMap').hide();
+        $('.changeofoMap').hide();
+        $('.overholdsMap').hide();
+        $('.internalCostsMap').hide();
+        $('.planningMap2').hide();
+        $('.negotiationMap2').hide();
+        $('.implementationMap2').hide();
+        $('.extensionsMap').hide();
+        $('.crownDebtMap').hide();
+        $('.earlyTerminationMap').hide();
+        $('.salesBasedRentMap').hide();
+        $('.crossFiscalMap').hide();
+        $('.rentAdjMap').hide();
+        $('.proportionateShareMap').hide();
+        $('.changesCrossFiscalMap').hide();
+        $('.changeInClauseMap').hide();
+        $('.leaseAAMap').hide();
+        $('.statutorySetoffMap').hide();
+        $('.inducementsMap').hide();
+        $('.PLARMap').hide();
+        $('.KPIMap').hide();
+        $('.RQAMap').hide();
+        return false;
+      });
+      
+<!--BELOW IS SECOND BLOCK OF JAVASCRIPT CODE, AND SO ON...-->
+      $('#lease-in').click(function(){
+        $('.item').show();
+        $('.item').not('.lease-in').hide();
+        $('.planningMap').hide();
+        $('.negotiationMap').hide();
+        $('.implementationMap').hide();
+        $('.parkingMap').hide();
+        $('.changeofoMap').hide();
+        $('.overholdsMap').hide();
+        $('.internalCostsMap').hide();
+        $('.planningMap2').hide();
+        $('.negotiationMap2').hide();
+        $('.implementationMap2').hide();
+        $('.extensionsMap').hide();
+        $('.crownDebtMap').hide();
+        $('.earlyTerminationMap').hide();
+        $('.salesBasedRentMap').hide();
+        $('.crossFiscalMap').hide();
+        $('.rentAdjMap').hide();
+        $('.proportionateShareMap').hide();
+        $('.changesCrossFiscalMap').hide();
+        $('.changeInClauseMap').hide();
+        $('.leaseAAMap').hide();
+        $('.statutorySetoffMap').hide();
+        $('.inducementsMap').hide();
+        $('.PLARMap').hide();
+        $('.KPIMap').hide();
+        $('.RQAMap').hide();
+        return false;
+      });
+      
+      $('#lease-out').click(function(){
+        $('.item').show();
+        $('.item').not('.lease-out').hide();
+        $('.planningMap').hide();
+        $('.negotiationMap').hide();
+        $('.implementationMap').hide();
+        $('.parkingMap').hide();
+        $('.changeofoMap').hide();
+        $('.overholdsMap').hide();
+        $('.internalCostsMap').hide();
+        $('.planningMap2').hide();
+        $('.negotiationMap2').hide();
+        $('.implementationMap2').hide();
+        $('.extensionsMap').hide();
+        $('.crownDebtMap').hide();
+        $('.earlyTerminationMap').hide();
+        $('.salesBasedRentMap').hide();
+        $('.crossFiscalMap').hide();
+        $('.rentAdjMap').hide();
+        $('.proportionateShareMap').hide();
+        $('.changesCrossFiscalMap').hide();
+        $('.changeInClauseMap').hide();
+        $('.leaseAAMap').hide();
+        $('.statutorySetoffMap').hide();
+        $('.inducementsMap').hide();
+        $('.PLARMap').hide();
+        $('.KPIMap').hide();
+        $('.RQAMap').hide();
+        return false;
+      });
+      
+      $('#parking').click(function(){
+        $('.item').show();
+        $('.item').not('.parking').hide();
+        $('.planningMap').hide();
+        $('.negotiationMap').hide();
+        $('.implementationMap').hide();
+        $('.parkingMap').hide();
+        $('.changeofoMap').hide();
+        $('.overholdsMap').hide();
+        $('.internalCostsMap').hide();
+        $('.planningMap2').hide();
+        $('.negotiationMap2').hide();
+        $('.implementationMap2').hide();
+        $('.extensionsMap').hide();
+        $('.crownDebtMap').hide();
+        $('.earlyTerminationMap').hide();
+        $('.salesBasedRentMap').hide();
+        $('.crossFiscalMap').hide();
+        $('.rentAdjMap').hide();
+        $('.proportionateShareMap').hide();
+        $('.changesCrossFiscalMap').hide();
+        $('.changeInClauseMap').hide();
+        $('.leaseAAMap').hide();
+        $('.statutorySetoffMap').hide();
+        $('.inducementsMap').hide();
+        $('.PLARMap').hide();
+        $('.KPIMap').hide();
+        $('.RQAMap').hide();
+        return false;
+      });
+      
+      $('#leasemaintenance').click(function(){
+        $('.item').show();
+        $('.item').not('.leasemaintenance').hide();
+        $('.planningMap').hide();
+        $('.negotiationMap').hide();
+        $('.implementationMap').hide();
+        $('.parkingMap').hide();
+        $('.changeofoMap').hide();
+        $('.overholdsMap').hide();
+        $('.internalCostsMap').hide();
+        $('.planningMap2').hide();
+        $('.negotiationMap2').hide();
+        $('.implementationMap2').hide();
+        $('.extensionsMap').hide();
+        $('.crownDebtMap').hide();
+        $('.earlyTerminationMap').hide();
+        $('.salesBasedRentMap').hide();
+        $('.crossFiscalMap').hide();
+        $('.rentAdjMap').hide();
+        $('.proportionateShareMap').hide();
+        $('.changesCrossFiscalMap').hide();
+        $('.changeInClauseMap').hide();
+        $('.leaseAAMap').hide();
+        $('.statutorySetoffMap').hide();
+        $('.inducementsMap').hide();
+        $('.PLARMap').hide();
+        $('.KPIMap').hide();
+        $('.RQAMap').hide();
+        return false;
+      });
+      
+ $('#PLAR').click(function(){
+        $('.item').show();
+        $('.item').not('.PLAR').hide();
+        $('.planningMap').hide();
+        $('.negotiationMap').hide();
+        $('.implementationMap').hide();
+        $('.parkingMap').hide();
+        $('.changeofoMap').hide();
+        $('.overholdsMap').hide();
+        $('.internalCostsMap').hide();
+        $('.planningMap2').hide();
+        $('.negotiationMap2').hide();
+        $('.implementationMap2').hide();
+        $('.extensionsMap').hide();
+        $('.crownDebtMap').hide();
+        $('.earlyTerminationMap').hide();
+        $('.salesBasedRentMap').hide();
+        $('.crossFiscalMap').hide();
+        $('.rentAdjMap').hide();
+        $('.proportionateShareMap').hide();
+        $('.changesCrossFiscalMap').hide();
+        $('.changeInClauseMap').hide();
+        $('.leaseAAMap').hide();
+        $('.statutorySetoffMap').hide();
+        $('.inducementsMap').hide();
+        $('.PLARMap').hide();
+        $('.KPIMap').hide();
+        $('.RQAMap').hide();
+        return false;
+      });
+
+ $('#KPIandReporting').click(function(){
+        $('.item').show();
+        $('.item').not('.KPIandReporting').hide();
+        $('.planningMap').hide();
+        $('.negotiationMap').hide();
+        $('.implementationMap').hide();
+        $('.parkingMap').hide();
+        $('.changeofoMap').hide();
+        $('.overholdsMap').hide();
+        $('.internalCostsMap').hide();
+        $('.planningMap2').hide();
+        $('.negotiationMap2').hide();
+        $('.implementationMap2').hide();
+        $('.extensionsMap').hide();
+        $('.crownDebtMap').hide();
+        $('.earlyTerminationMap').hide();
+        $('.salesBasedRentMap').hide();
+        $('.crossFiscalMap').hide();
+        $('.rentAdjMap').hide();
+        $('.proportionateShareMap').hide();
+        $('.changesCrossFiscalMap').hide();
+        $('.changeInClauseMap').hide();
+        $('.leaseAAMap').hide();
+        $('.statutorySetoffMap').hide();
+        $('.inducementsMap').hide();
+        $('.PLARMap').hide();
+        $('.KPIMap').hide();
+        $('.RQAMap').hide();
+        return false;
+      });
+
+      $(document).ready(function(){      
+       $('div#Filter > a').click(function (e) {
+                e.preventDefault();
+                $('div#Filter > a').removeClass('activeFilter');
+                $(this).addClass('activeFilter');                
+            }); 
+   
+      });
+      
+      });
+
+$(document).ready(function(){
+  $(".planningMap").hide();
+  $("#btn1").click(function(){
+    $(".planningMap").show();
+    $('.item').not(".planningMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".negotiationMap").hide();
+  $("#btn2").click(function(){
+    $(".negotiationMap").show();
+    $('.item').not(".negotiationMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".implementationMap").hide();
+  $("#btn3").click(function(){
+    $(".implementationMap").show();
+    $('.item').not(".implementationMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".parkingMap").hide();
+  $("#btn4").click(function(){
+    $(".parkingMap").show();
+    $('.item').not(".parkingMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".changeofoMap").hide();
+  $("#btn5").click(function(){
+    $(".changeofoMap").show();
+    $('.item').not(".changeofoMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".overholdsMap").hide();
+  $("#btn6").click(function(){
+    $(".overholdsMap").show();
+    $('.item').not(".overholdsMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".internalCostsMap").hide();
+  $("#btn7").click(function(){
+    $(".internalCostsMap").show();
+    $('.item').not(".internalCostsMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".planningMap2").hide();
+  $("#btn8").click(function(){
+    $(".planningMap2").show();
+    $('.item').not(".planningMap2").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".negotiationMap2").hide();
+  $("#btn9").click(function(){
+    $(".negotiationMap2").show();
+    $('.item').not(".negotiationMap2").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".implementationMap2").hide();
+  $("#btn10").click(function(){
+    $(".implementationMap2").show();
+    $('.item').not(".implementationMap2").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".extensionsMap").hide();
+  $("#btn11").click(function(){
+    $(".extensionsMap").show();
+    $('.item').not(".extensionsMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".crownDebtMap").hide();
+  $("#btn12").click(function(){
+    $(".crownDebtMap").show();
+    $('.item').not(".crownDebtMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".earlyTerminationMap").hide();
+  $("#btn13").click(function(){
+    $(".earlyTerminationMap").show();
+    $('.item').not(".earlyTerminationMap").hide();
+  });
+});
+
+
+$(document).ready(function(){
+  $(".salesBasedRentMap").hide();
+  $("#btn14").click(function(){
+    $(".salesBasedRentMap").show();
+    $('.item').not(".salesBasedRentMap").hide();
+  });
+});
+
+
+$(document).ready(function(){
+  $(".crossFiscalMap").hide();
+  $("#btn15").click(function(){
+    $(".crossFiscalMap").show();
+    $('.item').not(".crossFiscalMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".rentAdjMap").hide();
+  $("#btn16").click(function(){
+    $(".rentAdjMap").show();
+    $('.item').not(".rentAdjMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".proportionateShareMap").hide();
+  $("#btn17").click(function(){
+    $(".proportionateShareMap").show();
+    $('.item').not(".proportionateShareMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".changesCrossFiscalMap").hide();
+  $("#btn18").click(function(){
+    $(".changesCrossFiscalMap").show();
+    $('.item').not(".changesCrossFiscalMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".changeInClauseMap").hide();
+  $("#btn19").click(function(){
+    $(".changeInClauseMap").show();
+    $('.item').not(".changeInClauseMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".leaseAAMap").hide();
+  $("#btn20").click(function(){
+    $(".leaseAAMap").show();
+    $('.item').not(".leaseAAMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".statutorySetoffMap").hide();
+  $("#btn21").click(function(){
+    $(".statutorySetoffMap").show();
+    $('.item').not(".statutorySetoffMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".inducementsMap").hide();
+  $("#btn22").click(function(){
+    $(".inducementsMap").show();
+    $('.item').not(".inducementsMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".PLARMap").hide();
+  $("#btn23").click(function(){
+    $(".PLARMap").show();
+    $('.item').not(".PLARMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".KPIMap").hide();
+  $("#btn24").click(function(){
+    $(".KPIMap").show();
+    $('.item').not(".KPIMap").hide();
+  });
+});
+
+$(document).ready(function(){
+  $(".RQAMap").hide();
+  $("#btn25").click(function(){
+    $(".RQAMap").show();
+    $('.item').not(".RQAMap").hide();
+  });
+});
+<!--^NEW SCRIPT HERE^-->
+
+$(function(){
+    $(".wmd-view-topscroll").scroll(function(){
+        $(".wmd-view")
+            .scrollLeft($(".wmd-view-topscroll").scrollLeft());
+    });
+    $(".wmd-view").scroll(function(){
+        $(".wmd-view-topscroll")
+            .scrollLeft($(".wmd-view").scrollLeft());
+    });
+});
+
+</script>
+    <!--Footer-->
+    
+<footer class="text-center">
+  <div class="container-fluid">
+    <br>
+      <a class="up-arrow" href="#title" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br>
+    <id="logo"><span class="glyphicon glyphicon-stats"></span><span> National Leasing, Policies and Systems</span><br>
+    <span>© 2017 National Centre of Expertise</span><br><br>
+    <a href="http://www.gcpedia.gc.ca/gcwiki/index.php?title=Leasing_and_Letting_(RES)&action=edit"><span>source</a><span> | </span><a href="http://stats.gctools-outilsgc.ca/gcpedia/?URL-search=/wiki/Leasing_and_Letting_(RES)#"><span>stats</span></a>
+<br><br><br>
+  </div>
+</footer>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+</html>
