@@ -809,13 +809,17 @@ footer a:hover {
 $(function(){ 
       var $content = $(".ShowMore").hide();
 	  
-<!-- MAPFUNCTIONS -->
+/*	MAPFUNCTIONS
 
-<!-- ADDING A NEW MAP:			$('.map_name').hide();			-->	  
+ADDING A NEW MAP:			
+$('.map_name').hide();
 
-<!-- *NOTE FOR ADDING A NEW CATEGORY: make sure to copy-paste from the existing blocks below for Step 2 to ensure your category filter correctly selects the maps -->
+NOTE FOR ADDING A NEW CATEGORY: make sure to copy-paste from the existing blocks below for Step 2 to ensure your category filter correctly selects the maps
 
-<!--BELOW IS FIRST BLOCK OF JAVASCRIPT CODE-->
+*/
+
+//	BELOW IS FIRST BLOCK OF JAVASCRIPT CODE
+
       $('#all').click(function(){
         $('.item').show();
        $('.planningMap').hide();
@@ -849,7 +853,8 @@ $(function(){
         return false;
       });
       
-<!--BELOW IS SECOND BLOCK OF JAVASCRIPT CODE, AND SO ON...-->
+//	BELOW IS SECOND BLOCK OF JAVASCRIPT CODE, AND SO ON...
+
       $('#lease-in').click(function(){
         $('.item').show();
         $('.item').not('.lease-in').hide();
@@ -1099,7 +1104,7 @@ $(function(){
       
       });
 
-<!-- BUTTONID -->	  
+//	BUTTONID	  
 	  
 $(document).ready(function(){
   $(".planningMap").hide();
@@ -1319,7 +1324,7 @@ $(document).ready(function(){
   });
 });
 
-<!-- NEW BUTTONID
+/*	NEW BUTTONID
 
 $(document).ready(function(){
   $(".map_name").hide();
@@ -1329,10 +1334,7 @@ $(document).ready(function(){
   });
 });
 
--->
-
-
-<!--^NEW SCRIPT HERE^-->
+*/
 
 $(function(){
     $(".wmd-view-topscroll").scroll(function(){
@@ -1361,6 +1363,7 @@ var currentScrollPos = window.pageYOffset;
 }
 
 </script>
+
     <!--Footer-->
     
 <footer class="text-center">
