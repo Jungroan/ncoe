@@ -419,31 +419,10 @@ footer a:hover {
   
 		<div class="tab-content">
 			<div id="home" class="tab-pane fade in active">
-				</br>
-				
-				<h2><i>Documented processes for everything we do… and timely answers when we don’t.</i></h2>
-				
-				</br>
 				
 				<div class="row">
-					<div class="col-sm-6">
-						<h3><u>LEASING AND LETTING NEWS</u></h3>
-						
-						<h4>
-							<ul>
-								<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/194388812" target="_blank">New Lease Requirements - Sustainable Development & ENERGY STAR Portfolio Manager</a></li>
-								<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/194370061" target="_blank">Publishing EOIs - Request for Public Notice Approval Form</a></li>
-								<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/181674151" target="_blank">Audit of the RP-1 and RP-2 contract - Quarterly Validation of Commercial Agreement Data Entry</a></li>
-								<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/170005977" target="_blank">Audit of the RP-1 and RP-2 contract - Results and Reminders</a></li>
-								<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/194404354" target="_blank">Establishing Third-party Agreements - Updated Forms</a></li>
-                                <li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/link/208559420" target="_blank">Accessibility Standard and modifications to the ITO - June 17, 2019</a></li>
 
-							</ul>
-						</h4>
-						
-					</div>
-
-					<div class="col-sm-6">
+					<div class="col-sm-12" align="center">
 						<style>
 
 		.fadein { position:relative; height:332px; width:500px; }
@@ -480,7 +459,34 @@ footer a:hover {
 					</div>
 				</div>
 				
-				</br></br></br></br></br></br></br>
+				</br></br></br></br></br></br></br></br></br></br>
+				
+				<div class="row">
+					<h1 align="center">LEASING AND LETTING NEWS</h1>
+					<div class="col-sm-6">
+						</br>					
+						<h3>
+							<ul>
+								<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/194388812" target="_blank">New Lease Requirements - Sustainable Development & ENERGY STAR Portfolio Manager</a></li>
+								<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/181674151" target="_blank">Audit of the RP-1 and RP-2 contract - Quarterly Validation of Commercial Agreement Data Entry</a></li>
+								<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/170005977" target="_blank">Audit of the RP-1 and RP-2 contract - Results and Reminders</a></li>
+							</ul>
+						</h3>
+					</div>
+					
+					<div class="col-sm-6">
+						</br>					
+						<h3>
+							<ul>
+								<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/194370061" target="_blank">Publishing EOIs - Request for Public Notice Approval Form</a></li>
+								<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/194404354" target="_blank">Establishing Third-party Agreements - Updated Forms</a></li>
+                                <li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/link/208559420" target="_blank">Accessibility Standard and modifications to the ITO - June 17, 2019</a></li>
+							</ul>
+						</h3>
+					</div>
+				</div>
+				
+				</br></br></br></br>
 				
 			</div>
 
@@ -809,17 +815,13 @@ footer a:hover {
 $(function(){ 
       var $content = $(".ShowMore").hide();
 	  
-/*	MAPFUNCTIONS
+<!-- MAPFUNCTIONS -->
 
-ADDING A NEW MAP:			
-$('.map_name').hide();
+<!-- ADDING A NEW MAP:			$('.map_name').hide();			-->	  
 
-NOTE FOR ADDING A NEW CATEGORY: make sure to copy-paste from the existing blocks below for Step 2 to ensure your category filter correctly selects the maps
+<!-- *NOTE FOR ADDING A NEW CATEGORY: make sure to copy-paste from the existing blocks below for Step 2 to ensure your category filter correctly selects the maps -->
 
-*/
-
-//	BELOW IS FIRST BLOCK OF JAVASCRIPT CODE
-
+<!--BELOW IS FIRST BLOCK OF JAVASCRIPT CODE-->
       $('#all').click(function(){
         $('.item').show();
        $('.planningMap').hide();
@@ -853,8 +855,7 @@ NOTE FOR ADDING A NEW CATEGORY: make sure to copy-paste from the existing blocks
         return false;
       });
       
-//	BELOW IS SECOND BLOCK OF JAVASCRIPT CODE, AND SO ON...
-
+<!--BELOW IS SECOND BLOCK OF JAVASCRIPT CODE, AND SO ON...-->
       $('#lease-in').click(function(){
         $('.item').show();
         $('.item').not('.lease-in').hide();
@@ -1104,7 +1105,7 @@ NOTE FOR ADDING A NEW CATEGORY: make sure to copy-paste from the existing blocks
       
       });
 
-//	BUTTONID	  
+<!-- BUTTONID -->	  
 	  
 $(document).ready(function(){
   $(".planningMap").hide();
@@ -1324,7 +1325,7 @@ $(document).ready(function(){
   });
 });
 
-/*	NEW BUTTONID
+<!-- NEW BUTTONID
 
 $(document).ready(function(){
   $(".map_name").hide();
@@ -1334,7 +1335,10 @@ $(document).ready(function(){
   });
 });
 
-*/
+-->
+
+
+<!--^NEW SCRIPT HERE^-->
 
 $(function(){
     $(".wmd-view-topscroll").scroll(function(){
@@ -1363,7 +1367,6 @@ var currentScrollPos = window.pageYOffset;
 }
 
 </script>
-
     <!--Footer-->
     
 <footer class="text-center">
