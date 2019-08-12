@@ -406,7 +406,7 @@ footer a:hover {
 		<img src="http://www.gcpedia.gc.ca/gcwiki/images/d/d1/RESBilingualBanner.png" width="100%">
 	</div>
 
-	<h1 align="center" style="font-family:arial; font-size:156">LEASING AND LETTING SERVICES WEB PORTAL</h1></br>
+	<h1 align="center" style="font-family:Helvetica; font-size:96"><b>LEASING AND LETTING SERVICES WEB PORTAL</b></h1>
 	
 	<div class="container">
 		<ul class="nav nav-pills nav-justified">
@@ -712,7 +712,7 @@ footer a:hover {
 <!-- POLICIESANDGUIDELINES -->	
 
 <!-- 	Policy List Item
-								<li><a href="policy_URL" target=”_blank”>policy_name</a></li>
+								<li><a href="policy_URL" target="_blank">policy_name</a></li>
  -->		
 
 			<div id="menu2" class="tab-pane fade">
