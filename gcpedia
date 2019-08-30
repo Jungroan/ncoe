@@ -298,6 +298,51 @@ body {
   width:100%;
 }
 
+
+.policyBox {
+  float: left;
+  position: relative;
+  width: 13.75%;
+  height: 10%;
+}
+
+.policyBoxInner {
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  top: 10px;
+  position: absolute;
+  overflow: hidden;
+  background-color: #FFFFFF;
+  border-radius: 10px; 
+  height: 50%;
+}
+
+.policyBoxInner .titleBox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  color: #FFF;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: .5px;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  width: 100%;
+  height:100%;
+  border-radius: 10px; 
+}
+
+.policyBoxInner:hover .titleBox {
+  opacity: .5;
+}
+
 .box {
   float: left;
   position: relative;
@@ -344,10 +389,12 @@ body {
   border-radius: 10px; 
 }
 
+
 .boxInner:hover .titleBox {
   opacity: .5;
  
 }
+
 
 #contact{
   background-color: #0F2E4C;
@@ -530,6 +577,7 @@ hr{
               <a href="https://www.google.ca" target="_blank">
                 <div class="NewsBox">
                 <img src="Calendar.png" align="center" width="100%" style="padding:40px">
+                <!--http://www.gcpedia.gc.ca/gcwiki.images/9/9c/RES-Calendar.png-->
                 <p style="font-size:24px; padding:20px;">New Lease Requirements - Sustainable Development & ENERGY STAR Portfolio Manager</p>
                 </div>
               </a>
@@ -538,6 +586,7 @@ hr{
               <a href="https://www.google.ca" target="_blank">
                 <div class="NewsBox">
                 <img src="Note.png" align="center" width="100%" style="padding:40px">
+                <!--http://www.gcpedia.gc.ca/gcwiki.images/1/16/RES-Note.png-->
                 <p style="font-size:24px; padding:20px;">Publishing EOIs - Request for Public Notice Approval Form</p>
                 </div>
               </a>
@@ -546,6 +595,7 @@ hr{
               <a href="https://www.google.ca" target="_blank">
                 <div class="NewsBox">
                 <img src="Folder.png" align="center" width="100%" style="padding:40px">
+                <!--http://www.gcpedia.gc.ca/gcwiki.images/1/16/RES-Folder.png-->
                 <p style="font-size:24px; padding:20px;">Establishing Third-party Agreements - Updated Forms</p>
                 </div>
               </a>
@@ -577,7 +627,8 @@ hr{
 							<div class="boxInner">
 								<img height="100%" src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/3879164/?nodeid=198627055">
 								<div class="titleBox">
-									<button id="btn1">LEASE-IN</button>
+                  <button id="btnli">LEASE-IN</button>
+                  <!--this is btn 1-->
 								</div>
 							</div>
 						</div>
@@ -585,11 +636,53 @@ hr{
 						<div class="box PLAR item">
 							<div class="boxInner">
 								<img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/6/64/PLARMap.svg">
-								<div class="titleBox"><button id="btn23">PLAR TRAINING</button>
+                <div class="titleBox"><button id="btnplar">PLAR TRAINING</button>
+                  <!--this is btn23-->
 								</div>
 							</div>
-						</div>
-						
+            </div>
+            
+            <div class="box lease-in item">
+              <div class="boxInner">
+                <img height="100%" src="#">
+                <div class="titleBox"><button id="btneoi">EXPRESSION OF INTEREST</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="box leasemaintenance item">
+                <div class="boxInner">
+                  <img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/1/14/RES-_National_Leasing_-_Change_of_Ownership_-_SIGMA_RP_Lease_Maintenance_Processes_-_Change_of_Ownership.svg">
+                  <div class="titleBox"><button id="btncoo">CHANGE OF OWNERSHIP</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box parking item">
+                <div class="boxInner">
+                  <img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/f/f2/EN_SP_5_Lease-out_Commercial_%28Vertical%29.svg">
+                  <div class="titleBox"><button id="btnlo">LEASE-OUT</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="box lease-out item">
+                <div class="boxInner">
+                  <img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/2/2a/RES_-_National_Leasing_-_2a_EN_SP_3_-_Workshop_-_Parking.svg">
+                  <div class="titleBox"><button id="btnpark">PARKING</button>
+                  </div>
+                </div>
+              </div>
+            
+              
+              <div class="box greening item">
+                <div class="boxInner">
+                  <img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/5/51/Greening_RRR.svg">
+                  <div class="titleBox"><button id="btngreen">REPORTING ON SUSTAINABILITY DATA</button>
+                  </div>
+                </div>
+              </div>
+              
 					</div>
 					
 <!-- Maps -->
@@ -627,23 +720,105 @@ hr{
 <!-- Policy Selectors -->
 					<div class="wrap">
 					
-						<div class="box treasury item">
-							<div class="boxInner">
-								<img height="100%" src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/3879164/?nodeid=198627055">
+						<div class="policyBox treasury item">
+							<div class="policyBoxInner">
 								<div class="titleBox">
-									<button id="btn101">LEASE-IN</button>
+									<button id="btn101">planning map</button>
 								</div>
 							</div>
 						</div>
 						
-						<div class="box publicworks item">
-							<div class="boxInner">
-								<img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/6/64/PLARMap.svg">
-								<div class="titleBox"><button id="btn102">PLAR TRAINING</button>
+						<div class="policyBox publicworks item">
+							<div class="policyBoxInner">
+								<div class="titleBox"><button id="btn102">Generic Policy</button>
 								</div>
 							</div>
-						</div>
-						
+            </div>
+
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn103">Generic Policy</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="policyBox publicworks item">
+							<div class="policyBoxInner">
+								<div class="titleBox"><button id="btn102">Generic Policy</button>
+								</div>
+							</div>
+            </div>
+            
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn102">Generic Policy</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn102">Generic Policy</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn102">Generic Policy</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn102">Generic Policy</button>
+                </div>
+              </div>
+            </div>
+ 
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn103">Generic Policy</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn102">Generic Policy</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn102">Generic Policy</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn102">Generic Policy</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn102">Generic Policy</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="policyBox publicworks item">
+              <div class="policyBoxInner">
+                <div class="titleBox"><button id="btn102">Generic Policy</button>
+                </div>
+              </div>
+            </div>            
+
 					</div>
 					
 <!-- Policies -->
@@ -735,7 +910,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$(".planningMap").hide();
-	$("#btn1").click(function(){
+	$("#btnli").click(function(){
 		$(".planningMap").show();
 		$('.item').not(".planningMap").hide();
 	});
@@ -743,7 +918,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$(".PLARMap").hide();
-	$("#btn23").click(function(){
+	$("#btnplar").click(function(){
 		$(".PLARMap").show();
 		$('.item').not(".PLARMap").hide();
 	});
@@ -761,6 +936,14 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$(".PLARMap").hide();
 	$("#btn102").click(function(){
+		$(".PLARMap").show();
+		$('.item').not(".PLARMap").hide();
+	});
+});
+
+$(document).ready(function(){
+	$(".PLARMap").hide();
+	$("#btn103").click(function(){
 		$(".PLARMap").show();
 		$('.item').not(".PLARMap").hide();
 	});
