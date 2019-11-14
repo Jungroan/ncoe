@@ -1,691 +1,769 @@
-<!-- Images to be updated: Calendar.png, Folder.png, Note.png, RES-banner-->
-
-<html lang="en">
-
-<head> 
-	<title>National Leasing Centre of Expertise</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href=".css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Caronta:400,700|Hind:400,600" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-</head>
-
-<style>
-.mw-body{
-  border:none;
-  background-color: #EEF2FF
-}
-
-.wmd-view-topscroll, .wmd-view {
-    overflow-x: scroll;
-    overflow-y: scroll;
-    width: 100%;
-    border-top: none 1px black;
-    border-bottom: none 1px black;
-}
-
-.wmd-view-topscroll{
-  height: 20px; 
-}
-
-.wmd-view {
-  height: 850px; 
-}
-
-.scroll-div1 { 
-    width: 2300px; 
-    overflow-x: scroll;
-    overflow-y: hidden;
-}
-
-.scroll-div2 { 
-    width: 1800px; 
-    height:20px;
-}
-
-top{
-  display: none;
-}
-
-#firstHeading {
-   display:none;
-}
-
-#mw-page-base {
-  display: none;
-}
-
-header {
-   display:none;
-}
-
-#mw-panel {
-  display: none;
-}
-
-#column-content {
-  margin: 0 0 .6em 0;
-}
-
-#content {
-  margin: 2.8em 0 0 0;
-}
-
-#p-logo, .generated-sidebar, #p-lang, #p-tb, #p-search {
-  display: none;
-}
-
-#p-cactions {
-  left: .1em; 
-}
-
-#footer {
-  display: none;
-}
-
-#mw_content {
-  margin-left: 0.2em;
-}
-
-#mw-head {
-  display: none;
-}
-
-#mw-head-base {
-  display: none;
-}
-
-#logo {
-  background-color:#0F2E4C;
-  color: white;
-  font-size: 20px;
-  float: left;
-  position: absolute;
-  top: .1px;
-  left: 15px;
-  border: 2px solid #0F2E4C;  
-  text-shadow:1px 3px 6px rgba(0,0,0,.3);
-  font-family: 'Open Sans', sans-serif;
-  padding-bottom: 20px;
-  z-index:9999;
-}
-
-#fr{
-  color: grey;
-  float: right;
-  position: absolute;
-  right: 3px;
-  font-size: 20px;
-  font-family: 'Open Sans', sans-serif;
-  padding-bottom: 20px;  
-  z-index:9999;
-}
-
-.glyphicon{
-  font-size:15px;
-  padding:2px;
-  z-index:9999;
-}
-
-.navbar {
-  background-color: #EEF2FF;
-  font-size: 18px;
-  border:2px solid #fff;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  z-index:9999;
-}
-
-#title {
-  background-color: #EEF2FF;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  max-height: 450px;
-  min-height: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  padding: 15px;
-}
-
-.container {
-	width: 100%;
-	background-color: #EEF2FF
-}
-
-.container-fluid .maintitle{
-  color: black;
-  font-size: 56px;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  padding: 0px;
-  letter-spacing:6px;
-}
-
-.container-fluid .bar{
-  background-color: black;
-  margin:22px auto;
-  height:2px;
-  width: 250px;
-  display: block;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.container-fluid .sectitle {
-  font-size: 40px;
-  text-align: center;
-  padding: 0%;
-  color: black;
-  letter-spacing: 3px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.container-fluid h5{
-  font-size:30px;
-  color:black;
-  text-align: center;
-  padding-top:20px;
-  letter-spacing:2px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.container-fluid .bar2{
-  background-color:black;
-  margin:22px auto;
-  height:2px;
-  width: 140px;
-  display:block;
-  text-shadow:1px 1px 1px rgba(0,0,0,.3);
-}
-
-.container-fluid p{
-  text-align:center;
-  font-size: 16px;
-}
-
-#green{
-  color:#95D155!important;
-}
-
-#yellow{
-  color:#FFDA69 !important;
-}
-
-#grey{
-  color:#D9D9D9 !important;
-}
-
-#Filter {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-#Filter a:link, #Filter a:visited {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #0F2E4C;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 3px;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  border-radius: 5px;
-}
-
-#Filter a:hover, #Filter a:active, .activeFilter {
-  background-color: #a4acb4!important;
-}
-
-#PolicyFilter {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-#PolicyFilter a:link, #Filter a:visited {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #0F2E4C;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 3px;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  border-radius: 5px;
-}
-
-#PolicyFilter a:hover, #Filter a:active, .activeFilter {
-  background-color: #a4acb4!important;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #EEF2FF;
-  -webkit-font-smoothing:antialiased;
-  text-rendering: optimizedLegibility;
-}
-
-.wrap {
-  overflow: hidden;
-  margin: 0px;
-  margin-bottom: 20px;
-}
-
-.wrap button{
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  border: none; 
-  height:100%;
-  width:100%;
-}
-
-
-.policyBox {
-  float: left;
-  position: relative;
-  width: 13.75%;
-  height: 10%;
-}
-
-.policyBoxInner {
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  top: 10px;
-  position: absolute;
-  overflow: hidden;
-  background-color: #FFFFFF;
-  border-radius: 10px; 
-  height: 50%;
-}
-
-.policyBoxInner .titleBox {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #000;
-  color: #FFF;
-  padding: 0px;
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: .5px;
-  z-index: 1;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  width: 100%;
-  height:100%;
-  border-radius: 10px; 
-}
-
-.policyBoxInner:hover .titleBox {
-  opacity: .5;
-}
-
-.box {
-  float: left;
-  position: relative;
-  width: 13.75%;
-  padding-bottom: 20%;
-}
-
-.boxInner {
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
-  top: 10px;
-  position: absolute;
-  overflow: hidden;
-  background-color: #0F2E4C;
-  opacity: .5;  
-  border-radius: 10px; 
-}
-
-.boxInner img {
-  width: 100%;
-}
-
-.boxInner .titleBox {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #000;
-  background: rgba(0, 0, 0, 0.5);
-  color: #FFF;
-  padding: 0px;
-  text-align: center;
-  font-weight: bold;
-  letter-spacing: .5px;
-  z-index: 1;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-  width: 100%;
-  height:100%;
-  opacity: 1;
-  border-radius: 10px; 
-}
-
-
-.boxInner:hover .titleBox {
-  opacity: .5;
- 
-}
-
-
-#contact{
-  background-color: #0F2E4C;
-  text-align:centre;
-  margin:-15px;
-  color:#fff;
-  padding:30px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-#contact a{
-  background-color:#0F2E4C;
-  border-radius:0px;
-  border:1px solid #fff;
-  color:white;
-  padding:9px;
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-#contact a:hover{
-  background-color:white;
-  color:#0F2E4C !important;
-  text-decoration:none;
-}
-
-#contact a:visited{
-  color:white;
-  text-decoration:none;
-}
-
-.maps{
-  padding-bottom: 50px
-}
-
-.maps h5{
-  text-align:left;
-  letter-spacing:2px;
-  font-size: 25px;
-  color:black;
-  margin-left:10px;
-}
-
-.maps p{
-  text-align:left;
-  letter-spacing:1px;
-  font-size: 15px;
-  color:grey;
-  margin-left:10px;
-}
-
-.planningMap a, .negotiationMap a, .implementationMap a, .planningMap2 a, .negotiationMap2 a, .implementationMap2 a, .parkingMap a, .changeofoMap a, .overholdsMap a, .internalCostsMap a, .extensionsMap a, .crownDebtMap a, .earlyTerminationMap a, .salesBasedRentMap a, .crossFiscalMap a, .rentAdjMap a, .proportionateShareMap a, .changesCrossFiscalMap a, .changeInClauseMap a, .leaseAAMap a, .statutorySetoffMap a, .inducementsMap a, .KPIMap a, .EOIMap a, .RQAMap a, .PLARMap a{
-  text-align:left;
-  letter-spacing:1px;
-  font-size: 15px;
-  color:#0F2E4C;
-  margin-left:10px;
-  text-decoration:underline;
-}
-
-.planningMap a:hover, .negotiationMap a:hover, .implementationMap a:hover, .planningMap2 a:hover, .negotiationMap2 a:hover, .implementationMap2 a:hover, .parkingMap a:hover, .changeofoMap a:hover, .overholdsMap a:hover, .internalCostsMap a:hover, .extensionsMap a:hover, .crownDebtMap a:hover, .earlyTerminationMap a:hover, .salesBasedRentMap a:hover, .crossFiscalMap a:hover, .rentAdjMap a:hover, .proportionateShareMap a:hover, .changesCrossFiscalMap a:hover, .changeInClauseMap a:hover, .leaseAAMap a:hover, .statutorySetoffMap a:hover, .inducementsMap a:hover, .KPIMap a:hover, .EOIMap a, .RQAMap a:hover, .PLARMap a:hover{
-  color:black;
-}
-
-span {
-  color: #ffffff;
-}
-
-footer {
-  background-color: #5468B7;
-  margin:-15px;
-}
-
-footer a{
-  color:white;
-}
-
-footer a:hover {
-  color: white;
-}
-
-hr{
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 2px solid white;
-  padding: 0;
-}
-
-.dropdown-toggle {
-  border-color: #add8e6;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 1px;
-  margin-left: -50px;
-}
-
-.dropdown-menu {
-  position: relative;
-  left: -72px;
-  top: -2px;
-  border-radius: 1px;
-}
-
-.iframeLink {
-  border-color: #89cff0;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 1px;
-  position: relative;
-  left: -72px;
-  top: -2px;
-}
-
-.jumbotron {
-  background-color: #EEF2FF;
-}
-
-.NewsBox{
-  height: 70%;
-  font-variant: small-caps;
-}
-
-
-
-</style>
-
-<body>
-
-<!-- Banner -->
-  <div class="jumbotron" style="padding:0px">
-    <img src="RES-Banner.png" width="100%">
-<!--		<img src="http://www.gcpedia.gc.ca/gcwiki/images/b/ba/RES-Banner.png" width="100%"> -->
-	</div>
-
-
-<!-- Content Category Tabs -->	
-	<div class="container">
-		<ul class="nav nav-pills nav-justified" style="padding-bottom:20px">
-			<li class="active" style="border-width:4px; border-style:solid; border-color:#FFFFFF; border-radius:2px;"><a data-toggle="pill" href="#home"><b>HOME</b></a></li>
-			<li style="border-width:4px; border-style:solid; border-color:#FFFFFF; border-radius:2px;"><a data-toggle="pill" href="#ProcessMaps"><b>PROCESS MAPS</b></a></li>
-			<li style="border-width:4px; border-style:solid; border-color:#FFFFFF; border-radius:2px;"><a data-toggle="pill" href="#PoliciesAndGuidelines"><b>POLICIES AND GUIDELINES</b></a></li>
-		</ul>
-		
-		<div class="tab-content">
-		
-<!-- HOME -->
-			<div id="home" class="tab-pane fade in active">
-
-<!-- Graphic -->			
-				<div class="row" style="padding-top: 20px">
-					<div class="col-sm-1">
-					</div>
-					<div class="col-sm-10">
-            <img src="ckIgwNL.jpg" width="100%">
-            <!--http://www.gcpedia.gc.ca/gcwiki/images/2/21/82Emp.PNG-->
-					</div>
-					<div class="col-sm-1">
-					</div>
-				</div>
-        </br>
-        </br>
-
-        <hr>
-        <div class="row" align="center">
-          
-        </div>
-        <hr>
-
-<!-- News -->
-				<div class="row">
-					<p style="font-size:36px; color:#6699CC; padding:30px">Recent News</p>
-				</div>
-				
-				<div class="row">
-				
-          <div class="col-sm-4" style="padding-bottom: 50px; padding-left: 50px; padding-right:50px">
-              <a href="https://www.google.ca" target="_blank">
-                <div class="NewsBox">
-                <img src="Calendar.png" align="center" width="100%" style="padding:40px">
-                <!--http://www.gcpedia.gc.ca/gcwiki.images/9/9c/RES-Calendar.png-->
-                <p style="font-size:24px; padding:20px;">New Lease Requirements - Sustainable Development & ENERGY STAR Portfolio Manager</p>
-                </div>
-              </a>
-					</div>
-          <div class="col-sm-4" style="padding-bottom: 50px; padding-left: 50px; padding-right:50px">
-              <a href="https://www.google.ca" target="_blank">
-                <div class="NewsBox">
-                <img src="Note.png" align="center" width="100%" style="padding:40px">
-                <!--http://www.gcpedia.gc.ca/gcwiki.images/1/16/RES-Note.png-->
-                <p style="font-size:24px; padding:20px;">Publishing EOIs - Request for Public Notice Approval Form</p>
-                </div>
-              </a>
-					</div>
-          <div class="col-sm-4" style="padding-bottom: 50px; padding-left: 50px; padding-right:50px">
-              <a href="https://www.google.ca" target="_blank">
-                <div class="NewsBox">
-                <img src="Folder.png" align="center" width="100%" style="padding:40px">
-                <!--http://www.gcpedia.gc.ca/gcwiki.images/1/16/RES-Folder.png-->
-                <p style="font-size:24px; padding:20px;">Establishing Third-party Agreements - Updated Forms</p>
-                </div>
-              </a>
-					</div>					
-					
-				</div>
-
-			</div>
-
-<!-- PROCESS MAPS -->			
-			<div id="ProcessMaps" class="tab-pane fade">
+	<html lang="en">
+
+	<head> 
+		<title>National Leasing Centre of Expertise</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href=".css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Caronta:400,700|Hind:400,600" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+
+	<style>
+	.mw-body{
+	  border:none;
+	  background-color: #EEF2FF;
+	  width: 100%;
+	  padding: 0px;
+	}
+	
+	#jump-to-nav{
+		margin-top: -3em;
+		}
+	
+	#siteNotice{
+	display:none;
+	}
+
+	.wmd-view-topscroll, .wmd-view {
+		overflow-x: scroll;
+		overflow-y: scroll;
+		width: 100%;
+		border-top: none 1px black;
+		border-bottom: none 1px black;
+	}
+
+	.wmd-view-topscroll{
+	  height: 20px; 
+	}
+
+	.wmd-view {
+	  height: 850px; 
+	}
+
+	.scroll-div1 { 
+		width: 2300px; 
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+
+	.scroll-div2 { 
+		width: 1800px; 
+		height:20px;
+	}
+
+	top{
+	  display: none;
+	}
+
+	#firstHeading {
+	   display:none;
+	}
+
+	#mw-page-base {
+	  display: none;
+	}
+
+	header {
+	   display:none;
+	}
+
+	#mw-panel {
+	  display: none;
+	}
+
+	#column-content {
+	  margin: 0 0 .6em 0;
+	}
+
+	#content {
+	  margin: 0em 0 0 0;
+	}
+
+	#p-logo, .generated-sidebar, #p-lang, #p-tb, #p-search {
+	  display: none;
+	}
+
+	#p-cactions {
+	  left: .1em; 
+	}
+
+	#footer {
+	  display: none;
+	}
+
+	#mw_content {
+	  margin-left: 0.2em;
+	}
+
+	#mw-head {
+	  display: none;
+	}
+
+	#mw-head-base {
+	  display: none;
+	}
+
+	#logo {
+	  background-color:#0F2E4C;
+	  color: white;
+	  font-size: 20px;
+	  float: left;
+	  position: absolute;
+	  top: .1px;
+	  left: 15px;
+	  border: 2px solid #0F2E4C;  
+	  text-shadow:1px 3px 6px rgba(0,0,0,.3);
+	  font-family: 'Open Sans', sans-serif;
+	  padding-bottom: 20px;
+	  z-index:9999;
+	}
+
+	#fr{
+	  color: grey;
+	  float: right;
+	  position: absolute;
+	  right: 3px;
+	  font-size: 20px;
+	  font-family: 'Open Sans', sans-serif;
+	  padding-bottom: 20px;  
+	  z-index:9999;
+	}
+
+	.glyphicon{
+	  margin-left: auto;
+	  margin-right: auto;
+	  font-size:15px;
+	  padding:2px;
+	  z-index:9999;
+	}
+
+	.navbar {
+	  background-color: #EEF2FF;
+	  font-size: 18px;
+	  z-index:9999;
+	}
+
+	#title {
+	  background-color: #EEF2FF;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  width: 100%;
+	  max-height: 450px;
+	  left: 0;
+	  right: 0;
+	  padding: 15px;
+	}
+
+	.container {
+		width: 100%;
+		background-color: #EEF2FF;
+		padding: 0px;
+	}
+
+	.container-fluid .maintitle{
+	  color: black;
+	  font-size: 56px;
+	  text-align: center;
+	  font-family: 'Open Sans', sans-serif;
+	  padding: 0px;
+	  letter-spacing:6px;
+	}
+
+	.container-fluid .bar{
+	  background-color: black;
+	  margin:22px auto;
+	  height:2px;
+	  width: 250px;
+	  display: block;
+	  font-family: 'Open Sans', sans-serif;
+	}
+
+	.container-fluid .sectitle {
+	  font-size: 40px;
+	  text-align: center;
+	  padding: 0%;
+	  color: black;
+	  letter-spacing: 3px;
+	  font-family: 'Open Sans', sans-serif;
+	}
+
+	.container-fluid h4{
+	  font-size:40px;
+	  color:black;
+	  text-align: center;
+	  letter-spacing:2px;
+	  font-family: 'Open Sans', sans-serif;
+	  padding:0px;
+	}
+
+	.container-fluid .bar2{
+	  background-color:black;
+	  margin:22px auto;
+	  height:2px;
+	  width: 140px;
+	  display:block;
+	  text-shadow:1px 1px 1px rgba(0,0,0,.3);
+	}
+
+	.container-fluid p{
+	  text-align:center;
+	}
+
+	#green{
+	  color:#95D155!important;
+	}
+
+	#yellow{
+	  color:#FFDA69 !important;
+	}
+
+	#grey{
+	  color:#D9D9D9 !important;
+	}
+
+	#Filter {
+	  text-align: center;
+	  margin-top: 30px;
+	  margin-bottom: 20px;
+	  border-radius: 5px;
+	}
+
+	#Filter a:link, #Filter a:visited {
+	  font-family: 'Open Sans', sans-serif;
+	  background-color: #0F2E4C;
+	  color: white;
+	  padding: 14px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  margin-bottom: 3px;
+	  -webkit-transition: all 0.3s ease-out;
+	  -moz-transition: all 0.3s ease-out;
+	  -o-transition: all 0.3s ease-out;
+	  transition: all 0.3s ease-out;
+	  border-radius: 5px;
+	}
+
+	#Filter a:hover, #Filter a:active, .activeFilter {
+	  background-color: #a4acb4!important;
+	}
+
+	#PolicyFilter {
+	  text-align: center;
+	  margin-top: 30px;
+	  margin-bottom: 20px;
+	  border-radius: 5px;
+	}
+
+	#PolicyFilter a:link, #Filter a:visited {
+	  font-family: 'Open Sans', sans-serif;
+	  background-color: #0F2E4C;
+	  color: white;
+	  padding: 14px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  margin-bottom: 3px;
+	  -webkit-transition: all 0.3s ease-out;
+	  -moz-transition: all 0.3s ease-out;
+	  -o-transition: all 0.3s ease-out;
+	  transition: all 0.3s ease-out;
+	  border-radius: 5px;
+	}
+
+	#PolicyFilter a:hover, #Filter a:active, .activeFilter {
+	  background-color: #a4acb4!important;
+	}
+
+	body {
+	  margin: 0;
+	  padding: 0;
+	  background-color: #EEF2FF;
+	  -webkit-font-smoothing:antialiased;
+	  text-rendering: optimizedLegibility;
+	  width: 100%;
+	}
+
+	.wrap {
+	  overflow: hidden;
+	  margin: 0px;
+	  margin-bottom: 20px;
+	}
+
+	.wrap button{
+	  background-color: Transparent;
+	  background-repeat:no-repeat;
+	  border: none; 
+	  height:100%;
+	  width:100%;
+	}
+
+
+	.policyBox {
+	  float: left;
+	  width: 12%;
+	  height: 200px;
+	  position: relative;
+	}
+
+	.policyBoxInner {
+	  left: 15px;
+	  right: 15px;
+	  bottom: 20px;
+	  top: 20px;
+	  position: absolute;
+	  overflow: hidden;
+	  background-color: #FFFFFF;
+	  border-top-right-radius: 25px;
+	  border-top-left-radius: 3px;
+	  border-bottom-left-radius: 3px;
+	  border-bottom-right-radius: 3px;
+	  height: 80%;
+	}
+
+	.policyBoxInner .policyTitleBox {
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  background: #ffffff;
+	  color: #000;
+	  padding: 0px;
+	  text-align: center;
+	  font-weight: bold;
+	  letter-spacing: .5px;
+	  z-index: 1;
+	  -webkit-transition: all 0.3s ease-out;
+	  -moz-transition: all 0.3s ease-out;
+	  -o-transition: all 0.3s ease-out;
+	  transition: all 0.3s ease-out;
+	  width: 100%;
+	  height:100%;
+	  border-top-right-radius: 25px;
+	  border-style: solid;
+	  border-width: 2px;
+	  border-color: #000;
+	}
+
+	.policyBoxInner:hover .policyTitleBox {
+	  opacity: .5;
+	}
+
+	.policyBoxInner img {
+	  width: 100%;
+	}
+
+	.box {
+	  float: left;
+	  position: relative;
+	  width: 13.75%;
+	  padding-bottom: 20%;
+	}
+
+	.boxInner {
+	  left: 10px;
+	  right: 10px;
+	  bottom: 10px;
+	  top: 10px;
+	  position: absolute;
+	  overflow: hidden;
+	  background-color: #0F2E4C;
+	  opacity: .5;  
+	  border-radius: 10px; 
+	}
+
+	.boxInner img {
+	  width: 100%;
+	}
+
+	.boxInner .titleBox {
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  background: #000;
+	  background: rgba(0, 0, 0, 0.5);
+	  color: #FFF;
+	  padding: 0px;
+	  text-align: center;
+	  font-weight: bold;
+	  font-size: 16px;
+	  letter-spacing: .5px;
+	  z-index: 1;
+	  -webkit-transition: all 0.3s ease-out;
+	  -moz-transition: all 0.3s ease-out;
+	  -o-transition: all 0.3s ease-out;
+	  transition: all 0.3s ease-out;
+	  width: 100%;
+	  height:100%;
+	  opacity: 1;
+	  border-radius: 10px; 
+	}
+
+
+	.boxInner:hover .titleBox {
+	  opacity: .5;
+	 
+	}
+
+
+	#contact{
+	  background-color: #0F2E4C;
+	  text-align:centre;
+	  margin:-15px;
+	  color:#fff;
+	  padding:30px;
+	  font-family: 'Open Sans', sans-serif;
+	}
+
+	#contact a{
+	  background-color:#0F2E4C;
+	  border-radius:0px;
+	  border:1px solid #fff;
+	  color:white;
+	  padding:9px;
+	  -webkit-transition: all 0.3s ease-out;
+	  -moz-transition: all 0.3s ease-out;
+	  -o-transition: all 0.3s ease-out;
+	  transition: all 0.3s ease-out;
+	}
+
+	#contact a:hover{
+	  background-color:white;
+	  color:#0F2E4C !important;
+	  text-decoration:none;
+	}
+
+	#contact a:visited{
+	  color:white;
+	  text-decoration:none;
+	}
+
+	.maps{
+	  padding-bottom: 50px
+	}
+
+	.maps h5{
+	  text-align:left;
+	  letter-spacing:2px;
+	  font-size: 25px;
+	  color:black;
+	  margin-left:10px;
+	}
+
+	.maps p{
+	  text-align:left;
+	  letter-spacing:1px;
+	  font-size: 15px;
+	  color:grey;
+	  margin-left:10px;
+	}
+
+	.planningMap a, .negotiationMap a, .implementationMap a, .planningMap2 a, .negotiationMap2 a, .implementationMap2 a, .parkingMap a, .changeofoMap a, .overholdsMap a, .internalCostsMap a, .extensionsMap a, .crownDebtMap a, .earlyTerminationMap a, .salesBasedRentMap a, .crossFiscalMap a, .rentAdjMap a, .proportionateShareMap a, .changesCrossFiscalMap a, .changeInClauseMap a, .leaseAAMap a, .statutorySetoffMap a, .inducementsMap a, .KPIMap a, .EOIMap a, .RQAMap a, .PLARMap a{
+	  text-align:left;
+	  letter-spacing:1px;
+	  font-size: 15px;
+	  color:#0F2E4C;
+	  margin-left:10px;
+	  text-decoration:underline;
+	}
+
+	.planningMap a:hover, .negotiationMap a:hover, .implementationMap a:hover, .planningMap2 a:hover, .negotiationMap2 a:hover, .implementationMap2 a:hover, .parkingMap a:hover, .changeofoMap a:hover, .overholdsMap a:hover, .internalCostsMap a:hover, .extensionsMap a:hover, .crownDebtMap a:hover, .earlyTerminationMap a:hover, .salesBasedRentMap a:hover, .crossFiscalMap a:hover, .rentAdjMap a:hover, .proportionateShareMap a:hover, .changesCrossFiscalMap a:hover, .changeInClauseMap a:hover, .leaseAAMap a:hover, .statutorySetoffMap a:hover, .inducementsMap a:hover, .KPIMap a:hover, .EOIMap a, .RQAMap a:hover, .PLARMap a:hover{
+	  color:black;
+	}
+
+	span {
+	  color: #ffffff;
+	}
+
+	footer {
+	  background-color: #5468B7;
+	  margin:-15px;
+	}
+
+	footer a{
+	  color:white;
+	}
+
+	footer a:hover {
+	  color: white;
+	}
+
+	hr{
+	border:0.5px;
+	border-style:solid;
+	border-color: #FFFFFF;
+	background-color: #FFFFFF;
+	}
+
+	.dropdown-toggle {
+	  border-top-color: #add8e6;
+	  border-top-style: solid;
+	  border-top-width: 1px;
+	  border-top-radius: 1px;
+	}
+	
+	
+	.dropdown .dropdown-menu li{
+	display: block;
+    padding: 2px;
+	color: blue;
+    border-bottom: 1px solid #e6e8ea;
+	font-style: ;
+	}
+
+	.btn btn-primary dropdown-toggle {
+	  border-radius: 10px;
+	}
+
+	.iframeLink {
+	  border-color: #89cff0;
+	  border-style: solid;
+	  border-width: 1px;
+	  border-radius: 1px;
+	  position: relative;
+	  left: -72px;
+	  top: -2px;
+	}
+
+	.jumbotron {
+	  background-color: #EEF2FF;
+	  padding: 0px;
+	}
+
+	.NewsBox{
+	  height: 70%;
+	  font-variant: small-caps;
+	}
+
+	.container{
+		-ms-overflow-style: none;
+		overflow: auto;
+	}
+
+	.caret{
+		color:blue;
+	}
+
+
+
+	</style>
+
+	<body>
+
+	<!-- Banner -->
+		<div class="jumbotron" width="100%">
+			<img src="http://www.gcpedia.gc.ca/gcwiki/images/b/ba/RES-Banner.png" width="100%">
+		</div>
+
+
+	<!-- Content Category Tabs -->	
+		<div class="container">
+			<ul class="nav nav-pills nav-justified" style="padding-bottom:20px" align="center">
+				<li class="active" style="border-width:2px; border-style:solid; border-color:#FFFFFF; border-radius:2px; font-size:16px"><a data-toggle="pill" href="#home"><b>HOME</b></a></li>
+				<li style="border-width:2px; border-style:solid; border-color:#FFFFFF; border-radius:2px; font-size:16px"><a data-toggle="pill" href="#ProcessMaps"><b>PROCESS MAPS</b></a></li>
+				<li style="border-width:2px; border-style:solid; border-color:#FFFFFF; border-radius:2px; font-size:16px"><a data-toggle="pill" href="#PoliciesAndGuidelines"><b>POLICIES AND GUIDELINES</b></a></li>
+			</ul>
 			
-<!-- Map Categories -->
-				<div id="MapCategories" class="container-fluid">
+			<div class="tab-content">
+			
+	<!-- HOME -->
+				<div id="home" class="tab-pane fade in active">
+
+	<!-- Graphic -->			
+					<div class="row" style="padding-top: 20px">
+						<div class="col-sm-12" style="padding: 0px">
+							<img src="https://www.gcpedia.gc.ca/gcwiki/images/7/79/Nresbanner.jpg" width="100%">
+						</div>
+
+					</div>
+					</br>
+
+	<!-- Homepage Documents -->
 					<div class="row">
-						<div class="col-sm-2">
-							<div id="Filter">
-								<a id="all" class="activeFilter" href="#"><!--<span class="glyphicon glyphicon-circle-arrow-left"></span>--> show all</a>
+					<nav class="navbar">
+						<div class="container-fluid h4">
+							<ul class="nav navbar-nav">
+								<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Foundational Documents<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/13484233" target="_blank">Real Estate Services Policy Collection</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=140672929&objAction=browse" target="_blank">Real Property Acts and Regulations</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=140656103&objAction=browse" target="_blank">Treasury Board Policies and Publications</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=173388695&objAction=browse" target="_blank">Real Property Lexicon</a></li>
+									</ul>
+								</li> 
+								<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">General Documents<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=120385538&objAction=browse" target="_blank">Leasing Services Procedures Manual</a></li>
+									</ul>
+								</li> 
+								<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Work Instructions<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=32769119" target="_blank">Proportionate Share Measurement</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=88676010" target="_blank">Create an Inducement Condition in an RE/FX Contract</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/89630369" target="_blank">Contract Changes Across Fiscal Years</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/94032029" target="_blank">PLAR Collection</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/180417089" target="_blank">Create Business Partner for Lease or Letting Contract</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=19458227" target="_blank">Creating a Planned and Certified Sales Reporting Interval</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=24792368" target="_blank">Enter Missing Sales Reports</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=99533702" target="_blank">Sales Based Rent Setup Different Scenarios</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/180417089" target="_blank">Create Business Partner for Lease or Letting Contract</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=93400660" target="_blank">Guidelines for RE/FX Contracts in Overhold</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=32607866" target="_blank">Give Notice on an RE/FX Contract</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=35492378" target="_blank">Give Notice on a Rental Object in an RE/FX Contract</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=97689193&objAction=browse" target="_blank">Key Performance Indicators</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/94032029" target="_blank">PLAR Collection</a></li>
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objId=101503362&objAction=browse" target="_blank">Reporting & Quality Assurance</a></li>
+									</ul>
+								</li> 
+								<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Leasing<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/Open/21921515" target="_blank">National Leasing Template Agreements</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Letting<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/link/14554823" target="_blank">Commercial and Retail Letting Manual</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<hr>
+					</div>
+
+	<!-- News -->				
+					<div class="row">
+						<div class="col-sm-1">
+						</div>
+						<div class="col-sm-11">
+						<p style="font-size:36px; color:#000080;"><i>Recent News</i></p>
+						</div>
+					</div>				
+					
+					<div class="row">			
+						<div class="col-sm-4" style="padding-bottom: 50px; padding-left: 50px; padding-right:50px">
+						  <a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/194388812" target="_blank">
+							<div class="NewsBox" align="center">
+								<img src="http://www.gcpedia.gc.ca/gcwiki/images/9/9c/RES-Calendar.png" width="60%">
+								<p style="font-size:24px; padding:20px;">New Lease Requirements - Sustainable Development & ENERGY STAR Portfolio Manager</p>
 							</div>
+						  </a>
 						</div>
-						<div class="col-sm-10">
+						<div class="col-sm-4" style="padding-bottom: 50px; padding-left: 50px; padding-right:50px">
+							  <a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/194370061" target="_blank">
+								<div class="NewsBox" align="center">
+								<img src="http://www.gcpedia.gc.ca/gcwiki/images/1/16/RES-Note.png" width="60%">
+								<p style="font-size:24px; padding:20px;">Publishing EOIs - Request for Public Notice Approval Form</p>
+								</div>
+							  </a>
 						</div>
+						<div class="col-sm-4" style="padding-bottom: 50px; padding-left: 50px; padding-right:50px">
+							  <a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/open/194404354" target="_blank">
+								<div class="NewsBox" align="center">
+								<img src="http://www.gcpedia.gc.ca/gcwiki/images/1/16/RES-Folder.png" width="65%">
+								<p style="font-size:24px;">Establishing Third-party Agreements - Updated Forms</p>
+								</div>
+							  </a>
+						</div>									
 					</div>
 					
-<!-- Map Selectors -->
-					<div class="wrap">
-					
-						<div class="box lease-in item">
-							<div class="boxInner">
-								<img height="100%" src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/3879164/?nodeid=198627055">
-								<div class="titleBox">
-                  <button id="btnli">LEASE-IN</button>
-                  <!--this is btn 1-->
+
+				</div>
+
+	<!-- PROCESS MAPS -->			
+				<div id="ProcessMaps" class="tab-pane fade">
+				
+	<!-- Map Categories -->
+					<div id="MapCategories" class="container-fluid">
+				
+	<!-- Show All -->
+						<div class="row">
+							<div class="col-sm-2">
+								<div id="Filter">
+									<a id="all" class="activeFilter" href="#"><!--<span class="glyphicon glyphicon-circle-arrow-left"></span>--> show all</a>
 								</div>
+							</div>
+							<div class="col-sm-10">
 							</div>
 						</div>
 						
-						<div class="box PLAR item">
-							<div class="boxInner">
-								<img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/6/64/PLARMap.svg">
-                <div class="titleBox"><button id="btnplar">PLAR TRAINING</button>
-                  <!--this is btn23-->
+	<!-- Map Selectors -->
+						<div class="wrap">
+						
+							<div class="box lease-in item">
+								<div class="boxInner">
+									<img height="100%" src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/3879164/?nodeid=198627055">
+									<div class="titleBox">
+										<button id="btnli">LEASE-IN</button>
+									</div>
 								</div>
 							</div>
-            </div>
-            
-            <div class="box lease-in item">
-              <div class="boxInner">
-                <img height="100%" src="#">
-                <div class="titleBox"><button id="btneoi">EXPRESSION OF INTEREST</button>
-                </div>
-              </div>
-            </div>
-            
-            <div class="box leasemaintenance item">
-                <div class="boxInner">
-                  <img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/1/14/RES-_National_Leasing_-_Change_of_Ownership_-_SIGMA_RP_Lease_Maintenance_Processes_-_Change_of_Ownership.svg">
-                  <div class="titleBox"><button id="btncoo">CHANGE OF OWNERSHIP</button>
-                  </div>
-                </div>
-              </div>
+							
+							<div class="box PLAR item">
+								<div class="boxInner">
+									<img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/6/64/PLARMap.svg">
+									<div class="titleBox">
+										<button id="btnplar">PLAR TRAINING</button>
+									</div>
+								</div>
+							</div>
+				
+							<div class="box lease-in item">
+								<div class="boxInner">
+									<img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/1/13/RES_-_National_leasing_-_EOI-EDI_-_process_map_-_ENG.svg">
+									<div class="titleBox">
+										<button id="btneoi">EXPRESSION OF INTEREST</button>
+									</div>
+								</div>
+							</div>
+				
+							<div class="box leasemaintenance item">
+								<div class="boxInner">
+									<img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/1/14/RES-_National_Leasing_-_Change_of_Ownership_-_SIGMA_RP_Lease_Maintenance_Processes_-_Change_of_Ownership.svg">
+									<div class="titleBox">
+										<button id="btncoo">CHANGE OF OWNERSHIP</button>
+									</div>
+								</div>
+							  </div>
 
-              <div class="box parking item">
-                <div class="boxInner">
-                  <img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/f/f2/EN_SP_5_Lease-out_Commercial_%28Vertical%29.svg">
-                  <div class="titleBox"><button id="btnlo">LEASE-OUT</button>
-                  </div>
-                </div>
-              </div>
+							 <div class="box parking item">
+								<div class="boxInner">
+									<img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/f/f2/EN_SP_5_Lease-out_Commercial_%28Vertical%29.svg">
+									<div class="titleBox">
+										<button id="btnlo">LEASE-OUT</button>
+									</div>
+								</div>
+							 </div>
 
-              <div class="box lease-out item">
-                <div class="boxInner">
-                  <img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/2/2a/RES_-_National_Leasing_-_2a_EN_SP_3_-_Workshop_-_Parking.svg">
-                  <div class="titleBox"><button id="btnpark">PARKING</button>
-                  </div>
-                </div>
-              </div>
-            
-              
-              <div class="box greening item">
-                <div class="boxInner">
-                  <img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/5/51/Greening_RRR.svg">
-                  <div class="titleBox"><button id="btngreen">REPORTING ON SUSTAINABILITY DATA</button>
-                  </div>
-                </div>
-              </div>
-              
+							 <div class="box lease-out item">
+								<div class="boxInner">
+									<img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/2/2a/RES_-_National_Leasing_-_2a_EN_SP_3_-_Workshop_-_Parking.svg">
+									<div class="titleBox">
+										<button id="btnpark">PARKING</button>
+									</div>
+								</div>
+							 </div>
+				
+				  
+							 <div class="box greening item">
+								<div class="boxInner">
+									<img height="100%" src="http://www.gcpedia.gc.ca/gcwiki/images/5/51/Greening_RRR.svg">
+									<div class="titleBox">
+										<button id="btngreen">REPORTING ON SUSTAINABILITY DATA</button>
+									</div>
+								</div>
+							 </div>
+				  
+						</div>
 					</div>
-					
-<!-- Maps -->
+						
+	<!-- Maps -->
 					<div class="maps">
 					
 						<div class="planningMap" align="center">
@@ -698,336 +776,736 @@ hr{
 									</ul>
 								</div>
 							</div>
-						</div>					
-					
-					</div>
+						</div>		
 
-				</div>	
-			</div>
-			
-<!-- POLICIES AND GUIDELINES -->
-			<div id="PoliciesAndGuidelines" class="tab-pan fade">
+						<div class="PLARMap" align="center">
 
-				<div id="PolicyCategories" class="container-fluid">
-					<div id="PolicyFilter">
-						<a id="Policyall" class="activeFilter" href="#">All</a>
-						<a id="treasury" href="#">Treasury Board Guidelines</a>
-						<a id="publicworks" href="#">PSPC Policies</a>
-						<a id="leasingdocs" href="#">Leasing Documentation</a>
-						<a id="lettingdocs" href="#">Letting Documentation</a>
-					</div>
-					
-<!-- Policy Selectors -->
-					<div class="wrap">
-					
-						<div class="policyBox treasury item">
-							<div class="policyBoxInner">
-								<div class="titleBox">
-									<button id="btn101">planning map</button>
-								</div>
-							</div>
-						</div>
-						
-						<div class="policyBox publicworks item">
-							<div class="policyBoxInner">
-								<div class="titleBox"><button id="btn102">Generic Policy</button>
-								</div>
-							</div>
-            </div>
-
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn103">Generic Policy</button>
-                </div>
-              </div>
-            </div>
-
-            <div class="policyBox publicworks item">
-							<div class="policyBoxInner">
-								<div class="titleBox"><button id="btn102">Generic Policy</button>
-								</div>
-							</div>
-            </div>
-            
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn102">Generic Policy</button>
-                </div>
-              </div>
-            </div>
-
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn102">Generic Policy</button>
-                </div>
-              </div>
-            </div>
-
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn102">Generic Policy</button>
-                </div>
-              </div>
-            </div>
-            
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn102">Generic Policy</button>
-                </div>
-              </div>
-            </div>
- 
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn103">Generic Policy</button>
-                </div>
-              </div>
-            </div>
-
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn102">Generic Policy</button>
-                </div>
-              </div>
-            </div>
-            
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn102">Generic Policy</button>
-                </div>
-              </div>
-            </div>
-
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn102">Generic Policy</button>
-                </div>
-              </div>
-            </div>
-
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn102">Generic Policy</button>
-                </div>
-              </div>
-            </div>
-            
-            <div class="policyBox publicworks item">
-              <div class="policyBoxInner">
-                <div class="titleBox"><button id="btn102">Generic Policy</button>
-                </div>
-              </div>
-            </div>            
-
-					</div>
-					
-<!-- Policies -->
-					<div class="maps">
-					
-						<div class="planningMap" align="center">
-
-							<div style="width: 100%; overflow: auto;">
+							<div style="width: 100%; overflow: auto">
 								<div style="width: 100%">
 									<ul style="padding: 0;">
-										<li style="display: inline;"><embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/3879164/?nodeid=198627055">
+										<li style="display: inline;"><embed src="http://www.gcpedia.gc.ca/gcwiki/images/6/64/PLARMap.svg">
 										</li>
 									</ul>
 								</div>
 							</div>
-						</div>					
+						</div>	
+						
+						<div class="changeofoMap" align="center">
+
+							<div style="width: 100%; overflow: auto">
+								<div style="width: 100%">
+									<ul style="padding: 0;">
+										<li style="display: inline;"><embed src="http://www.gcpedia.gc.ca/gcwiki/images/1/14/RES-_National_Leasing_-_Change_of_Ownership_-_SIGMA_RP_Lease_Maintenance_Processes_-_Change_of_Ownership.svg">
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>	
+						
+						<div class="EOIMap" align="center">
+
+							<div style="width: 100%; overflow: auto">
+								<div style="width: 100%">
+									<ul style="padding: 0;">
+										<li style="display: inline;"><embed src="http://www.gcpedia.gc.ca/gcwiki/images/1/13/RES_-_National_leasing_-_EOI-EDI_-_process_map_-_ENG.svg">
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<div class="LOCMap" align="center">
+
+							<div style="width: 100%; overflow: auto">
+								<div style="width: 100%">
+									<ul style="padding: 0;">
+										<li style="display: inline;"><embed src="http://www.gcpedia.gc.ca/gcwiki/images/f/f2/EN_SP_5_Lease-out_Commercial_%28Vertical%29.svg">
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<div class="parkingMap" align="center">
+
+							<div style="width: 100%; overflow: auto">
+								<div style="width: 100%">
+									<ul style="padding: 0;">
+										<li style="display: inline;"><embed src="http://www.gcpedia.gc.ca/gcwiki/images/2/2a/RES_-_National_Leasing_-_2a_EN_SP_3_-_Workshop_-_Parking.svg">
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<div class="greeningMap" align="center">
+
+							<div style="width: 100%; overflow: auto">
+								<div style="width: 100%">
+									<ul style="padding: 0;">
+										<li style="display: inline;"><embed src="http://www.gcpedia.gc.ca/gcwiki/images/5/51/Greening_RRR.svg">
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						
 					
 					</div>
+				</div>
+				
+	<!-- POLICIES AND GUIDELINES -->
+				<div id="PoliciesAndGuidelines" class="tab-pane fade">
 
-				</div>	
+					<div id="PolicyCategories" class="container-fluid">
+						<div class="row">
+							<div id="PolicyFilter">
+								<a id="Policyall" class="activeFilter" href="#"> Show All</a></br><i><p>please ensure you are signed into GCDOCS</i></p>
+	<!--							<a id="treasury" href="#">Treasury Board Guidelines</a>
+								<a id="publicworks" href="#">PSPC Policies</a>
+								<a id="leasingdocs" href="#">Leasing Documentation</a>
+								<a id="lettingdocs" href="#">Letting Documentation</a> -->
+							</div>
+						</div>
+						
+	<!-- Policy Selectors -->
+						<div class="wrap">
+						
+							<div class="policyBox publicworks item">
+								<div class="policyBoxInner">
+									<div class="policyTitleBox">
+										<button id="btnacting">Acting on Behalf of a Custodian Department for a Lease Letting Licence</button>
+									</div>
+								</div>
+							</div>
+							
+							<div class="policyBox publicworks item">
+								<div class="policyBoxInner">
+									<div class="policyTitleBox">
+										<button id="btnadvertising">Commercial Advertising In and On RPS Real Property Best Practice</button>
+									</div>
+								</div>
+							</div>
+
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox">
+									<button id="btnp3">Directive on Real Property Branch Obligations to Consider Public-Private Partnerships</button>
+								</div>
+							  </div>
+							</div>
+
+							<div class="policyBox publicworks item">
+								<div class="policyBoxInner">
+									<div class="policyTitleBox">
+										<button id="btntermination">Early Termination Clauses Relative to Lease Project Approval</button>
+									</div>
+								</div>
+							</div>
+							
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox">
+									<button id="btnescalation">Escalation Payment Monitoring Procedures</button>
+								</div>
+							  </div>
+							</div>
+
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox"><button id="btnestimation">Estimating Market Rent</button>
+								</div>
+							  </div>
+							</div>
+
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox"><button id="btnestoppel">Procedures for an Estoppel Certificate</button>
+								</div>
+							  </div>
+							</div>
+							
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox"><button id="btnfood">Food Services Policy</button>
+								</div>
+							  </div>
+							</div>
+				 
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox"><button id="btnescadmin">Directive on Lease Escalation Administration</button>
+								</div>
+							  </div>
+							</div>
+
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox"><button id="btnaward">Letters of Award Policy</button>
+								</div>
+							  </div>
+							</div>
+							
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox"><button id="btnrisk">Policy on the Planning, Management, and Risk Resolution of Leases</button>
+								</div>
+							  </div>
+							</div>
+
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox"><button id="btnrp1">RP-1 Procedure on Establishing Third-Party Leases and Agreements</button>
+								</div>
+							  </div>
+							</div>
+
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox"><button id="btnthird">Third Party Occupancies Policy</button>
+								</div>
+							  </div>
+							</div>
+							
+							<div class="policyBox publicworks item">
+							  <div class="policyBoxInner">
+								<div class="policyTitleBox"><button id="btndaycare">Workplace Day Cares Centres Policy</button>
+								</div>
+							  </div>
+							</div>
+
+						</div>
+						
+	<!-- Policies -->
+						<div class="maps">
+
+							<div class="actingPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/17338526/?nodeid=133903605" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=133903605" target="_blank">GCDOCS link</a></h2>								
+							</div>		
+
+							<div class="advertisingPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/13848326/?nodeid=25026296" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=133903605" target="_blank">GCDOCS link</a></h2>
+							</div>
+
+							<div class="p3Policy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/2495657/?nodeid=25344247" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=25344247" target="_blank">GCDOCS link</a></h2>
+							</div>
+
+							<div class="terminationPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/133846301/?nodeid=133846333" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=133846333" target="_blank">GCDOCS link</a></h2>
+							</div>
+
+							<div class="escalationPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/27856179/?nodeid=63567175" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=63567175" target="_blank">GCDOCS link</a></h2>
+							</div>		
+
+							<div class="estoppelPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/25056155/?nodeid=25058390" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=25058390" target="_blank">GCDOCS link</a></h2>
+							</div>	
+
+							<div class="estimationPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/17338526/?nodeid=133863434" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=133863434" target="_blank">GCDOCS link</a></h2>
+							</div>	
+
+							<div class="foodPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/16750900/?nodeid=25075900" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=25075900" target="_blank">GCDOCS link</a></h2>
+							</div>	
+
+							<div class="escadminPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/27850502/?nodeid=62827580" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=62827580" target="_blank">GCDOCS link</a></h2>
+							</div>	
+
+							<div class="awardPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/27841091/?nodeid=93100841" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=93100841" target="_blank">GCDOCS link</a></h2>
+							</div>	
+
+							<div class="riskPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/27857713/?nodeid=33695605" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=33695605" target="_blank">GCDOCS link</a></h2>
+							</div>		
+
+							<div class="RP1Policy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/13824037/?nodeid=14554865" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=14554865" target="_blank">GCDOCS link</a></h2>
+							</div>	
+
+							<div class="thirdPolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/13826033/?nodeid=108703593" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=108703593" target="_blank">GCDOCS link</a></h2>
+							</div>	
+
+							<div class="daycarePolicy" align="center" style="overflow: auto;">
+								<embed src="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll/fetch/13847422/?nodeid=25397404" height="800px" width="100%">
+								<h2 align="center"><a href="https://gcdocs.gc.ca/tpsgc-pwgsc/llisapi.dll?func=ll&objaction=overview&objid=25397404" target="_blank">GCDOCS link</a></h2>
+							</div>	
+		
+						</div>
+
+					</div>	
+				</div>
+				
+				
 			</div>
-			</div>
-			
 			
 		</div>
 		
-	</div>
-	
-</body>
+	</body>
 
-<script>
+	<script>
 
 
-/* Map Category Selector */
-$('#all').click(function(){
-		$('.item').show();
-		$('.planningMap').hide();
-		$('.negotiationMap').hide();
-        return false;
-});
-
-$('#lease-in').click(function(){
-		$('.item').show();
-		$('.item').not('.lease-in').hide();
-		$('.planningMap').hide();
-		$('.negotiationMap').hide();
-        return false;
-});
-
-/* experimental */
-
-$('#Policyall').click(function(){
-		$('.item').show();
-		$('.planningMap').hide();
-        return false;
-});
-
-$('#treasury').click(function(){
-		$('.item').show();
-		$('.item').not('.treasury').hide();
-		$('.planningMap').hide();
-		$('.negotiationMap').hide();
-        return false;
-});
-
-$('#publicworks').click(function(){
-		$('.item').show();
-		$('.item').not('.publicworks').hide();
-		$('.planningMap').hide();
-		$('.negotiationMap').hide();
-        return false;
-});
-
-/* experimental END */
-
-/* Map Selector */
-
-/*
-
-$(document).ready(function(){
-	$(".mapName").hide();
-	$("#btn#").click(function(){
-		$(".mapName").show();
-		$('.item').not(".mapName").hide();
+	/* Map Category Selector */
+	$('#all').click(function(){
+			$('.item').show();
+			$('.planningMap').hide();
+			$('.PLARMap').hide();
+			$('.EOIMap').hide();
+			$('.LOCMap').hide();
+			$('.parkingMap').hide();
+			$('.changeofoMap').hide();
+			$('.greeningMap').hide();
+			$('.actingPolicy').hide();
+			$('.advertisingPolicy').hide();
+			$('.p3Policy').hide();
+			$('.terminationPolicy').hide();
+			$('.escalationPolicy').hide();
+			$('.estoppelPolicy').hide();
+			$('.foodPolicy').hide();
+			$('.escadminPolicy').hide();
+			$('.awardPolicy').hide();
+			$('.riskPolicy').hide();
+			$('.RP1Policy').hide();
+			$('.thirdPolicy').hide();
+			$('.daycarePolicy').hide();
+			$('.estimationPolicy').hide();
+			return false;
 	});
-});
 
-*/
-
-$(document).ready(function(){
-	$(".planningMap").hide();
-	$("#btnli").click(function(){
-		$(".planningMap").show();
-		$('.item').not(".planningMap").hide();
+	$('#lease-in').click(function(){
+			$('.item').show();
+			$('.item').not('.lease-in').hide();
+			$('.planningMap').hide();
+			$('.negotiationMap').hide();
+			return false;
 	});
-});
 
-$(document).ready(function(){
-	$(".PLARMap").hide();
-	$("#btnplar").click(function(){
-		$(".PLARMap").show();
-		$('.item').not(".PLARMap").hide();
+	/* experimental */
+
+	$('#Policyall').click(function(){
+			$('.item').show();
+			$('.planningMap').hide();
+			$('.PLARMap').hide();
+			$('.EOIMap').hide();
+			$('.LOCMap').hide();
+			$('.parkingMap').hide();
+			$('.changeofoMap').hide();
+			$('.greeningMap').hide();
+			$('.actingPolicy').hide();
+			$('.advertisingPolicy').hide();
+			$('.p3Policy').hide();
+			$('.terminationPolicy').hide();
+			$('.escalationPolicy').hide();
+			$('.estoppelPolicy').hide();
+			$('.foodPolicy').hide();
+			$('.escadminPolicy').hide();
+			$('.awardPolicy').hide();
+			$('.riskPolicy').hide();
+			$('.RP1Policy').hide();
+			$('.thirdPolicy').hide();
+			$('.daycarePolicy').hide();
+			$('.estimationPolicy').hide();		
+			return false;
 	});
-});
 
-/* experimetal */
-$(document).ready(function(){
-	$(".planningMap").hide();
-	$("#btn101").click(function(){
-		$(".planningMap").show();
-		$('.item').not(".planningMap").hide();
+	$('#treasury').click(function(){
+			$('.item').show();
+			$('.item').not('.treasury').hide();
+			$('.planningMap').hide();
+			$('.PLARMap').hide();
+			$('.EOIMap').hide();
+			$('.LOCMap').hide();
+			$('.parkingMap').hide();
+			$('.changeofoMap').hide();
+			$('.greeningMap').hide();
+			$('.actingPolicy').hide();
+			$('.advertisingPolicy').hide();
+			$('.p3Policy').hide();
+			$('.terminationPolicy').hide();
+			$('.escalationPolicy').hide();
+			$('.estoppelPolicy').hide();
+			$('.foodPolicy').hide();
+			$('.escadminPolicy').hide();
+			$('.awardPolicy').hide();
+			$('.riskPolicy').hide();
+			$('.RP1Policy').hide();
+			$('.thirdPolicy').hide();
+			$('.daycarePolicy').hide();
+			$('.estimationPolicy').hide();
+			return false;
 	});
-});
 
-$(document).ready(function(){
-	$(".PLARMap").hide();
-	$("#btn102").click(function(){
-		$(".PLARMap").show();
-		$('.item').not(".PLARMap").hide();
+	$('#publicworks').click(function(){
+			$('.item').show();
+			$('.item').not('.publicworks').hide();
+			$('.planningMap').hide();
+			$('.PLARMap').hide();
+			$('.EOIMap').hide();
+			$('.LOCMap').hide();
+			$('.parkingMap').hide();
+			$('.changeofoMap').hide();
+			$('.greeningMap').hide();
+			$('.actingPolicy').hide();
+			$('.advertisingPolicy').hide();
+			$('.p3Policy').hide();
+			$('.terminationPolicy').hide();
+			$('.escalationPolicy').hide();
+			$('.estoppelPolicy').hide();
+			$('.foodPolicy').hide();
+			$('.escadminPolicy').hide();
+			$('.awardPolicy').hide();
+			$('.riskPolicy').hide();
+			$('.RP1Policy').hide();
+			$('.thirdPolicy').hide();
+			$('.daycarePolicy').hide();
+			$('.estimationPolicy').hide();
+			return false;
 	});
-});
 
-$(document).ready(function(){
-	$(".PLARMap").hide();
-	$("#btn103").click(function(){
-		$(".PLARMap").show();
-		$('.item').not(".PLARMap").hide();
+	$('#leasingdocs').click(function(){
+			$('.item').show();
+			$('.item').not('.leasingdocs').hide();
+			$('.planningMap').hide();
+			$('.PLARMap').hide();
+			$('.EOIMap').hide();
+			$('.LOCMap').hide();
+			$('.parkingMap').hide();
+			$('.changeofoMap').hide();
+			$('.greeningMap').hide();
+			$('.actingPolicy').hide();
+			$('.advertisingPolicy').hide();
+			$('.p3Policy').hide();
+			$('.terminationPolicy').hide();
+			$('.escalationPolicy').hide();
+			$('.estoppelPolicy').hide();
+			$('.foodPolicy').hide();
+			$('.escadminPolicy').hide();
+			$('.awardPolicy').hide();
+			$('.riskPolicy').hide();
+			$('.RP1Policy').hide();
+			$('.thirdPolicy').hide();
+			$('.daycarePolicy').hide();
+			$('.estimationPolicy').hide();
+			return false;
 	});
-});
 
-/* experimental END */
+	$('#lettingdocs').click(function(){
+			$('.item').show();
+			$('.item').not('.lettingdocs').hide();
+			$('.planningMap').hide();
+			$('.PLARMap').hide();
+			$('.EOIMap').hide();
+			$('.LOCMap').hide();
+			$('.parkingMap').hide();
+			$('.changeofoMap').hide();
+			$('.greeningMap').hide();
+			$('.actingPolicy').hide();
+			$('.advertisingPolicy').hide();
+			$('.p3Policy').hide();
+			$('.terminationPolicy').hide();
+			$('.escalationPolicy').hide();
+			$('.estoppelPolicy').hide();
+			$('.foodPolicy').hide();
+			$('.escadminPolicy').hide();
+			$('.awardPolicy').hide();
+			$('.riskPolicy').hide();
+			$('.RP1Policy').hide();
+			$('.thirdPolicy').hide();
+			$('.daycarePolicy').hide();
+			$('.estimationPolicy').hide();
+			return false;
+	});
 
-$(document).ready(function(){      
-	$('div#Filter > a').click(function (e) {
-		e.preventDefault();
-		$('div#Filter > a').removeClass('activeFilter');
-		$(this).addClass('activeFilter');                
-	}); 
+	/* experimental END */
 
-});
+	/* Map Selector */
 
-$(document).ready(function(){      
-	$('div#PolicyFilter > a').click(function (e) {
-		e.preventDefault();
-		$('div#PolicyFilter > a').removeClass('activeFilter');
-		$(this).addClass('activeFilter');                
-	}); 
+	/*
 
-});
+	$(document).ready(function(){
+		$(".mapName").hide();
+		$("#btn#").click(function(){
+			$(".mapName").show();
+			$('.item').not(".mapName").hide();
+		});
+	});
 
-/* ?? */
+	*/
 
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementByClass("navbar").style.top = "0";
-  } else {
-    document.getElementByClass("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
+	$(document).ready(function(){
+		$(".planningMap").hide();
+		$("#btnli").click(function(){
+			$(".planningMap").show();
+			$('.item').not(".planningMap").hide();
+		});
+	});
 
-$(function(){
-    $(".wmd-view-topscroll").scroll(function(){
-        $(".wmd-view")
-            .scrollLeft($(".wmd-view-topscroll").scrollLeft());
-    });
-    $(".wmd-view").scroll(function(){
-        $(".wmd-view-topscroll")
-            .scrollLeft($(".wmd-view").scrollLeft());
-    });
-});
-	  
-</script>
+	$(document).ready(function(){
+		$(".PLARMap").hide();
+		$("#btnplar").click(function(){
+			$(".PLARMap").show();
+			$('.item').not(".PLARMap").hide();
+		});
+	});
 
-<footer class="text-center">
-	<div class="container-fluid">
-    </br></br></br>
-      <a class="up-arrow" href="#title" data-toggle="tooltip" title="TO TOP">
-      <span class="glyphicon glyphicon-chevron-up"></span>
-    </a><br>
-    <id="logo"><span class="glyphicon glyphicon-stats"></span><span>Real Estate Services</span></br>
-    <span>National Centre of Expertise</span><br><br>
+	$(document).ready(function(){
+		$(".EOIMap").hide();
+		$("#btneoi").click(function(){
+			$(".EOIMap").show();
+			$('.item').not(".EOIMap").hide();
+		});
+	});
 
-    <a href="http://www.gcpedia.gc.ca/gcwiki/index.php?title=Leasing_and_Letting_(RES)&action=edit">
-		<span>source</span>
-	</a>
-	<span> | </span>
-	<a href="http://stats.gctools-outilsgc.ca/gcpedia/?URL-search=/wiki/Leasing_and_Letting_(RES)#">
-		<span>stats</span>
-	</a>
-	<span> | </span>
-	<a href="mailto:TPSGC.dgbilocation-rpbleasing.PWGSC@tpsgc-pwgsc.gc.ca">
-		<span>contact</span>
-	</a>
-	<span> | </span>
-	<a href="http://www.gcpedia.gc.ca/wiki/Location_et_Louage_(SI)">
-		<span>français</span>
-	</a>
+	$(document).ready(function(){
+		$(".changeofoMap").hide();
+		$("#btncoo").click(function(){
+			$(".changeofoMap").show();
+			$('.item').not(".changeofoMap").hide();
+		});
+	});
 
-	</br>
-	
-	<span style="font-size:8px; color:#8F8F8F;">©2019 Public Services and Procurement Canada</span>
-	
-	</br></br></br></br>
+	$(document).ready(function(){
+		$(".LOCMap").hide();
+		$("#btnlo").click(function(){
+			$(".LOCMap").show();
+			$('.item').not(".LOCMap").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".parkingMap").hide();
+		$("#btnpark").click(function(){
+			$(".parkingMap").show();
+			$('.item').not(".parkingMap").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".greeningMap").hide();
+		$("#btngreen").click(function(){
+			$(".greeningMap").show();
+			$('.item').not(".greeningMap").hide();
+		});
+	});
+
+	/* experimental */
+	$(document).ready(function(){
+		$(".actingPolicy").hide();
+		$("#btnacting").click(function(){
+			$(".actingPolicy").show();
+			$('.item').not(".actingPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".advertisingPolicy").hide();
+		$("#btnadvertising").click(function(){
+			$(".advertisingPolicy").show();
+			$('.item').not(".advertisingPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".p3Policy").hide();
+		$("#btnp3").click(function(){
+			$(".p3Policy").show();
+			$('.item').not(".p3Policy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".terminationPolicy").hide();
+		$("#btntermination").click(function(){
+			$(".terminationPolicy").show();
+			$('.item').not(".terminationPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".escalationPolicy").hide();
+		$("#btnescalation").click(function(){
+			$(".escalationPolicy").show();
+			$('.item').not(".escalationPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".estoppelPolicy").hide();
+		$("#btnestoppel").click(function(){
+			$(".estoppelPolicy").show();
+			$('.item').not(".estoppelPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".estimationPolicy").hide();
+		$("#btnestimation").click(function(){
+			$(".estimationPolicy").show();
+			$('.item').not(".estimationPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".foodPolicy").hide();
+		$("#btnfood").click(function(){
+			$(".foodPolicy").show();
+			$('.item').not(".foodPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".escadminPolicy").hide();
+		$("#btnescadmin").click(function(){
+			$(".escadminPolicy").show();
+			$('.item').not(".escadminPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".awardPolicy").hide();
+		$("#btnaward").click(function(){
+			$(".awardPolicy").show();
+			$('.item').not(".awardPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".riskPolicy").hide();
+		$("#btnrisk").click(function(){
+			$(".riskPolicy").show();
+			$('.item').not(".riskPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".RP1Policy").hide();
+		$("#btnrp1").click(function(){
+			$(".RP1Policy").show();
+			$('.item').not(".RP1Policy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".thirdPolicy").hide();
+		$("#btnthird").click(function(){
+			$(".thirdPolicy").show();
+			$('.item').not(".thirdPolicy").hide();
+		});
+	});
+
+	$(document).ready(function(){
+		$(".daycarePolicy").hide();
+		$("#btndaycare").click(function(){
+			$(".daycarePolicy").show();
+			$('.item').not(".daycarePolicy").hide();
+		});
+	});
+
+	/* experimental END */
+
+	$(document).ready(function(){      
+		$('div#Filter > a').click(function (e) {
+			e.preventDefault();
+			$('div#Filter > a').removeClass('activeFilter');
+			$(this).addClass('activeFilter');                
+		}); 
+
+	});
+
+	$(document).ready(function(){      
+		$('div#PolicyFilter > a').click(function (e) {
+			e.preventDefault();
+			$('div#PolicyFilter > a').removeClass('activeFilter');
+			$(this).addClass('activeFilter');                
+		}); 
+
+	});
+
+	/* ?? */
+
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	var currentScrollPos = window.pageYOffset;
+	  if (prevScrollpos > currentScrollPos) {
+		document.getElementByClass("navbar").style.top = "0";
+	  } else {
+		document.getElementByClass("navbar").style.top = "-50px";
+	  }
+	  prevScrollpos = currentScrollPos;
+	}
+
+	$(function(){
+		$(".wmd-view-topscroll").scroll(function(){
+			$(".wmd-view")
+				.scrollLeft($(".wmd-view-topscroll").scrollLeft());
+		});
+		$(".wmd-view").scroll(function(){
+			$(".wmd-view-topscroll")
+				.scrollLeft($(".wmd-view").scrollLeft());
+		});
+	});
+		  
+	</script>
+
+	<footer class="text-center">
+		<div class="container-fluid">
+		</br></br></br>
+		  <a class="up-arrow" href="#title" data-toggle="tooltip" title="TO TOP">
+		  <span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
+		
+		</br>
+
+		<id="logo"><span class="glyphicon glyphicon-stats"></span></id><span>Real Estate Services</span>
+		
+		</br>
+
+		<span>National Centre of Expertise</span><br><br>
+
+		<a href="http://www.gcpedia.gc.ca/gcwiki/index.php?title=Leasing_and_Letting_(RES)&action=edit">
+			<span>source</span>
+		</a>
+		<span> | </span>
+		<a href="http://stats.gctools-outilsgc.ca/gcpedia/?URL-search=/wiki/Leasing_and_Letting_(RES)#">
+			<span>stats</span>
+		</a>
+		<span> | </span>
+		<a href="mailto:TPSGC.dgbilocation-rpbleasing.PWGSC@tpsgc-pwgsc.gc.ca">
+			<span>contact</span>
+		</a>
+		<span> | </span>
+		<a href="http://www.gcpedia.gc.ca/wiki/Location_et_Louage_(SI)">
+			<span>français</span>
+		</a>
+
+		</br>
+		
+		<span style="font-size:8px; color:#8F8F8F;">©2019 Public Services and Procurement Canada</span>
+		
+		</br></br></br></br>
 
 
-	</div>
-</footer>
+		</div>
+	</footer>
 
-</html>
+	</html>
